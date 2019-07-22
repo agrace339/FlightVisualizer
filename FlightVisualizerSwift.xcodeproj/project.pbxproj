@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30424F16968D5224E3C4A43B /* Pods_FlightVisualizerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D319ED1C8AA2683DE22B34E /* Pods_FlightVisualizerSwift.framework */; };
+		A00872D52214F7B9002D179A /* ReadCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00872D42214F7B9002D179A /* ReadCSV.swift */; };
+		A03F391F22132C08003BFB49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03F391E22132C08003BFB49 /* AppDelegate.swift */; };
+		A03F392122132C0A003BFB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03F392022132C0A003BFB49 /* Assets.xcassets */; };
+		A05FFBD3221DA44E00794EFB /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FFBD1221DA44E00794EFB /* MainWindowController.swift */; };
+		A05FFBD4221DA44E00794EFB /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05FFBD2221DA44E00794EFB /* MainWindowController.xib */; };
+		A05FFBD7221DA5D600794EFB /* FlightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FFBD5221DA5D600794EFB /* FlightListViewController.swift */; };
+		A05FFBD8221DA5D600794EFB /* FlightListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05FFBD6221DA5D600794EFB /* FlightListViewController.xib */; };
+		A05FFBDB221DA86300794EFB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FFBD9221DA86300794EFB /* MapViewController.swift */; };
+		A05FFBDC221DA86300794EFB /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05FFBDA221DA86300794EFB /* MapViewController.xib */; };
+		A06F85A4221840350094AFFE /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06F85A3221840350094AFFE /* FlightData.swift */; };
+		A07C8B3C2229F1D200F5E8FF /* TableViewWithImageBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07C8B3B2229F1D200F5E8FF /* TableViewWithImageBtn.swift */; };
+		A0F0A2DD222609F200114A88 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F0A2DC222609F100114A88 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D319ED1C8AA2683DE22B34E /* Pods_FlightVisualizerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightVisualizerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00872D42214F7B9002D179A /* ReadCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadCSV.swift; sourceTree = "<group>"; };
+		A03F391B22132C08003BFB49 /* FlightVisualizerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightVisualizerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03F391E22132C08003BFB49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		A03F392022132C0A003BFB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A03F392522132C0A003BFB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03F392622132C0A003BFB49 /* FlightVisualizerSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlightVisualizerSwift.entitlements; sourceTree = "<group>"; };
+		A05FFBD1221DA44E00794EFB /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		A05FFBD2221DA44E00794EFB /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		A05FFBD5221DA5D600794EFB /* FlightListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListViewController.swift; sourceTree = "<group>"; };
+		A05FFBD6221DA5D600794EFB /* FlightListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightListViewController.xib; sourceTree = "<group>"; };
+		A05FFBD9221DA86300794EFB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A05FFBDA221DA86300794EFB /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		A06F85A3221840350094AFFE /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		A07C8B3B2229F1D200F5E8FF /* TableViewWithImageBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithImageBtn.swift; sourceTree = "<group>"; };
+		A0F0A2DC222609F100114A88 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		CBC0643970053650EE49BB39 /* Pods-FlightVisualizerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightVisualizerSwift.release.xcconfig"; path = "Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift.release.xcconfig"; sourceTree = "<group>"; };
+		FDE1CEE288F96D2930A1B22A /* Pods-FlightVisualizerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightVisualizerSwift.debug.xcconfig"; path = "Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03F391822132C08003BFB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30424F16968D5224E3C4A43B /* Pods_FlightVisualizerSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A03F391222132C08003BFB49 = {
+			isa = PBXGroup;
+			children = (
+				A03F391D22132C08003BFB49 /* FlightVisualizerSwift */,
+				A03F391C22132C08003BFB49 /* Products */,
+				D7C1943AE7A23C288763C195 /* Pods */,
+				E0DBE041BA339A748DB9F47C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A03F391C22132C08003BFB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03F391B22132C08003BFB49 /* FlightVisualizerSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03F391D22132C08003BFB49 /* FlightVisualizerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A03F391E22132C08003BFB49 /* AppDelegate.swift */,
+				A03F392022132C0A003BFB49 /* Assets.xcassets */,
+				A03F392522132C0A003BFB49 /* Info.plist */,
+				A0F0A2DC222609F100114A88 /* MainMenu.xib */,
+				A03F392622132C0A003BFB49 /* FlightVisualizerSwift.entitlements */,
+				A00872D42214F7B9002D179A /* ReadCSV.swift */,
+				A06F85A3221840350094AFFE /* FlightData.swift */,
+				A05FFBD1221DA44E00794EFB /* MainWindowController.swift */,
+				A05FFBD2221DA44E00794EFB /* MainWindowController.xib */,
+				A05FFBD5221DA5D600794EFB /* FlightListViewController.swift */,
+				A05FFBD6221DA5D600794EFB /* FlightListViewController.xib */,
+				A07C8B3B2229F1D200F5E8FF /* TableViewWithImageBtn.swift */,
+				A05FFBD9221DA86300794EFB /* MapViewController.swift */,
+				A05FFBDA221DA86300794EFB /* MapViewController.xib */,
+			);
+			path = FlightVisualizerSwift;
+			sourceTree = "<group>";
+		};
+		D7C1943AE7A23C288763C195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1CEE288F96D2930A1B22A /* Pods-FlightVisualizerSwift.debug.xcconfig */,
+				CBC0643970053650EE49BB39 /* Pods-FlightVisualizerSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0DBE041BA339A748DB9F47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D319ED1C8AA2683DE22B34E /* Pods_FlightVisualizerSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03F391A22132C08003BFB49 /* FlightVisualizerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03F392922132C0A003BFB49 /* Build configuration list for PBXNativeTarget "FlightVisualizerSwift" */;
+			buildPhases = (
+				57C57CEDB0191AB04AB658C3 /* [CP] Check Pods Manifest.lock */,
+				A03F391722132C08003BFB49 /* Sources */,
+				A03F391822132C08003BFB49 /* Frameworks */,
+				A03F391922132C08003BFB49 /* Resources */,
+				501CCEF72B8D04C5554904A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightVisualizerSwift;
+			productName = FlightVisualizerSwift;
+			productReference = A03F391B22132C08003BFB49 /* FlightVisualizerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03F391322132C08003BFB49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anna Grace";
+				TargetAttributes = {
+					A03F391A22132C08003BFB49 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A03F391622132C08003BFB49 /* Build configuration list for PBXProject "FlightVisualizerSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A03F391222132C08003BFB49;
+			productRefGroup = A03F391C22132C08003BFB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03F391A22132C08003BFB49 /* FlightVisualizerSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03F391922132C08003BFB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03F392122132C0A003BFB49 /* Assets.xcassets in Resources */,
+				A05FFBD4221DA44E00794EFB /* MainWindowController.xib in Resources */,
+				A05FFBD8221DA5D600794EFB /* FlightListViewController.xib in Resources */,
+				A05FFBDC221DA86300794EFB /* MapViewController.xib in Resources */,
+				A0F0A2DD222609F200114A88 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		501CCEF72B8D04C5554904A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-macOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C57CEDB0191AB04AB658C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlightVisualizerSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03F391722132C08003BFB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00872D52214F7B9002D179A /* ReadCSV.swift in Sources */,
+				A07C8B3C2229F1D200F5E8FF /* TableViewWithImageBtn.swift in Sources */,
+				A06F85A4221840350094AFFE /* FlightData.swift in Sources */,
+				A05FFBD7221DA5D600794EFB /* FlightListViewController.swift in Sources */,
+				A03F391F22132C08003BFB49 /* AppDelegate.swift in Sources */,
+				A05FFBD3221DA44E00794EFB /* MainWindowController.swift in Sources */,
+				A05FFBDB221DA86300794EFB /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A03F392722132C0A003BFB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A03F392822132C0A003BFB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A03F392A22132C0A003BFB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE1CEE288F96D2930A1B22A /* Pods-FlightVisualizerSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlightVisualizerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anna-grace.FlightVisualizerSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		A03F392B22132C0A003BFB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC0643970053650EE49BB39 /* Pods-FlightVisualizerSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlightVisualizerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anna-grace.FlightVisualizerSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03F391622132C08003BFB49 /* Build configuration list for PBXProject "FlightVisualizerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03F392722132C0A003BFB49 /* Debug */,
+				A03F392822132C0A003BFB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03F392922132C0A003BFB49 /* Build configuration list for PBXNativeTarget "FlightVisualizerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03F392A22132C0A003BFB49 /* Debug */,
+				A03F392B22132C0A003BFB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A03F391322132C08003BFB49 /* Project object */;
+}

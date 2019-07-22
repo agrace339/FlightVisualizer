@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/Users/annagrace/Desktop/School/Exeter/Senior/Winter/CS590/FlightVisualizer/Pods/ArcGIS-Runtime-SDK-macOS/ArcGIS.framework/Versions/Current/ArcGIS filter=lfs diff=lfs merge=lfs -text
+ArcGIS filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,1442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8200D948E5AC83A2B1D0A9E9E2A29D57 /* ArcGIS-Runtime-SDK-macOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D12CDD5535A67C0AE97EF30C78863CED /* Build configuration list for PBXAggregateTarget "ArcGIS-Runtime-SDK-macOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "ArcGIS-Runtime-SDK-macOS";
+			productName = "ArcGIS-Runtime-SDK-macOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		12C35FEFD9ED2B74E2849C38E9431E4D /* Pods-FlightVisualizerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D84D446CE14A9F2A093C681BBF245 /* Pods-FlightVisualizerSwift-dummy.m */; };
+		534FDE4FFBFD9C0F6891C7DE8FB51374 /* Pods-FlightVisualizerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFD055E1B8E778BFB5C7D9828AD22A9 /* Pods-FlightVisualizerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1A91EE45B1EA2A3FCC161FAC43BFA2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CDA7E5FC2F18413D6F67FD2AD500FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200D948E5AC83A2B1D0A9E9E2A29D57;
+			remoteInfo = "ArcGIS-Runtime-SDK-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0016C5C19ACA701327D7EA97F6687339 /* AGSExportVectorTilesParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportVectorTilesParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportVectorTilesParameters.h; sourceTree = "<group>"; };
+		004F084436DA18DE8B8AE7B3441F65BC /* AGSPortalItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalItem.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalItem.h; sourceTree = "<group>"; };
+		0060ADFAA0BAF925CEAE9758816BCAE0 /* AGSWMSServiceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMSServiceInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMSServiceInfo.h; sourceTree = "<group>"; };
+		00DD432424A33DC6DF5841476C01F4C3 /* AGSWebTiledLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWebTiledLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWebTiledLayer.h; sourceTree = "<group>"; };
+		0190E95C66C3D54B577C386A1EFF64D2 /* AGSFacility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFacility.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFacility.h; sourceTree = "<group>"; };
+		039F083E9566571533C58DFFA14559F5 /* AGSUniqueValueRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUniqueValueRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUniqueValueRenderer.h; sourceTree = "<group>"; };
+		03B9A1B47D1EC78D950BC1053347ED74 /* AGSGeodatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodatabase.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodatabase.h; sourceTree = "<group>"; };
+		03E0578B65BD701B25D7E639EBB68135 /* AGSUnsupportedLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUnsupportedLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUnsupportedLayer.h; sourceTree = "<group>"; };
+		044D08F2B4751F8A8A8DAFD6607F684B /* AGSWMSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMSLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMSLayer.h; sourceTree = "<group>"; };
+		04E94DEB1EB981B6565D4FEA4FF2AE92 /* AGSProximityResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSProximityResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSProximityResult.h; sourceTree = "<group>"; };
+		0529B4898D7949A2EC17AF1205C6ABF5 /* AGSENCFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCFeature.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCFeature.h; sourceTree = "<group>"; };
+		054AF8CE47AFC936C1121044297934C7 /* AGSExportVectorTilesResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportVectorTilesResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportVectorTilesResult.h; sourceTree = "<group>"; };
+		058DFFE6215123D740A0A8DCD98B62AE /* AGSKMLGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLGroundOverlay.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLGroundOverlay.h; sourceTree = "<group>"; };
+		059490A01253042EDB3EBB4C6A7177D1 /* AGSSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSegment.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSegment.h; sourceTree = "<group>"; };
+		059CE878698DF81F1A6918B82F991BA0 /* AGSWMSSublayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMSSublayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMSSublayer.h; sourceTree = "<group>"; };
+		05FE9F6836822CC341CA4A56AE306CA6 /* AGSCodedValueDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCodedValueDomain.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCodedValueDomain.h; sourceTree = "<group>"; };
+		0615CB368C1BE2FB7A2C570AE64713E4 /* AGSLocatorTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocatorTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocatorTask.h; sourceTree = "<group>"; };
+		06640DB01949C2921E154D214EC59D9B /* AGSRouteResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRouteResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRouteResult.h; sourceTree = "<group>"; };
+		06C58EA5938DF5C8D4B9119CCDB55C48 /* AGSLocationViewshed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocationViewshed.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocationViewshed.h; sourceTree = "<group>"; };
+		08847B1BA3F86487DD07561CFBB682CE /* AGSExtensionLicense.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExtensionLicense.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExtensionLicense.h; sourceTree = "<group>"; };
+		08B82C916653C1B5D63C9E8503FF5C50 /* Pods-FlightVisualizerSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlightVisualizerSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		08CBC4D7C9003F0872C5EEB67D0B02AC /* AGSRenderingRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRenderingRule.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRenderingRule.h; sourceTree = "<group>"; };
+		098DABFBEC08AE0517BD39A52D80511E /* AGSRasterRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRasterRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRasterRenderer.h; sourceTree = "<group>"; };
+		09E1CFC1E1D9C6130B4C643551F5C69F /* AGSENCLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCLayer.h; sourceTree = "<group>"; };
+		0A68864CD63EC1433C4512271BA3F4BA /* AGSRasterLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRasterLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRasterLayer.h; sourceTree = "<group>"; };
+		0A7F2C4497296D2C201A8D0B022AB915 /* AGSGeometryEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeometryEngine.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeometryEngine.h; sourceTree = "<group>"; };
+		0AC5E92E91E203557F4BEA1ADBEA10B8 /* AGSKMLGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLGeometry.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLGeometry.h; sourceTree = "<group>"; };
+		0AC6A3AD6792FF885C72373CD047BB47 /* AGSItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSItem.h; path = ArcGIS.framework/Versions/Current/Headers/AGSItem.h; sourceTree = "<group>"; };
+		0B11AE1D09F0F3B986B1C90A69D435C4 /* AGSKMLNetworkLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLNetworkLink.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLNetworkLink.h; sourceTree = "<group>"; };
+		0B5D7CB0405F96024833C4D473D57D4F /* AGSPolygonBarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPolygonBarrier.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPolygonBarrier.h; sourceTree = "<group>"; };
+		0B8BE5939F042D6A07CF18B92FF6F44C /* AGSGeoprocessingUnknownParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingUnknownParameter.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingUnknownParameter.h; sourceTree = "<group>"; };
+		0B9B186A16EE69F00BDE7604B3350DED /* AGSGenerateOfflineMapJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateOfflineMapJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateOfflineMapJob.h; sourceTree = "<group>"; };
+		0BAA370FF7359C6864B7FEC593C90D19 /* AGSFrameCameraAddRastersParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFrameCameraAddRastersParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFrameCameraAddRastersParameters.h; sourceTree = "<group>"; };
+		0BC85671EC55BC146939A08FA61861D2 /* AGSJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSJSONRequestOperation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSJSONRequestOperation.h; sourceTree = "<group>"; };
+		0C356839B41DB27737D230403E26C5D0 /* AGSIdentifyLayerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSIdentifyLayerResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSIdentifyLayerResult.h; sourceTree = "<group>"; };
+		0C3FF94CB33F66D7A622DBCCF2F63ECF /* AGSPortalPrivilege.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalPrivilege.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalPrivilege.h; sourceTree = "<group>"; };
+		0CBE33F532157207CB58BFD51E7A76AA /* Pods-FlightVisualizerSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlightVisualizerSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CD4CD2919BBC8D8642407889E2C54B8 /* AGSWMTSTileMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMTSTileMatrix.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMTSTileMatrix.h; sourceTree = "<group>"; };
+		0D28129302B844570423FB44945A3C53 /* AGSLocatorAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocatorAttribute.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocatorAttribute.h; sourceTree = "<group>"; };
+		0E9E9B7B578E662BD9982EE5FA9A791D /* AGSPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPolyline.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPolyline.h; sourceTree = "<group>"; };
+		0FE6E38B52BCEAD480416F0AD757FE0D /* AGSArcGISMapImageSublayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISMapImageSublayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISMapImageSublayer.h; sourceTree = "<group>"; };
+		1028D2561401F41A3F8DBDA507BDA32C /* AGSGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeometry.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeometry.h; sourceTree = "<group>"; };
+		107957AD385F4C98793F10076BB6A671 /* AGSRaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRaster.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRaster.h; sourceTree = "<group>"; };
+		11522777BFE827BADFA7FDEBE54AC5F8 /* AGSLoadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLoadable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLoadable.h; sourceTree = "<group>"; };
+		11D61AA0B7A2B9C6829CE032E69B4CF4 /* AGSDirectionMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDirectionMessage.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDirectionMessage.h; sourceTree = "<group>"; };
+		124BF2D859E429195E5092E8339CCFBB /* AGSScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSScene.h; path = ArcGIS.framework/Versions/Current/Headers/AGSScene.h; sourceTree = "<group>"; };
+		12737EFC2BCB082B79F83CC3A32C6EC5 /* AGSTableJoinSublayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTableJoinSublayerSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTableJoinSublayerSource.h; sourceTree = "<group>"; };
+		15E4E8609CC23CD8A60F516A48E9A828 /* AGSPortalFolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalFolder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalFolder.h; sourceTree = "<group>"; };
+		160A9C045D692CF87DE232FDA9D427CE /* AGSNetworkLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSNetworkLocation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSNetworkLocation.h; sourceTree = "<group>"; };
+		167E931B95FE37D3702BED8F758FA845 /* AGSGeoprocessingJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingJob.h; sourceTree = "<group>"; };
+		180344B8553C7F7E6FFDDD65BF20902F /* AGSRGBRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRGBRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRGBRenderer.h; sourceTree = "<group>"; };
+		18D20FC37FE0238779694BB7C8B48D4E /* AGSDistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDistance.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDistance.h; sourceTree = "<group>"; };
+		1981F6C05EE6D374F7FE7CD757A706BC /* AGSDatumTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDatumTransformation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDatumTransformation.h; sourceTree = "<group>"; };
+		1A2C32603DC88CFAE6A125F27325F38A /* AGSSuggestResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSuggestResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSuggestResult.h; sourceTree = "<group>"; };
+		1A3B295DAF532A4AF0C31A17A17D7173 /* AGSLocationDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocationDisplay.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocationDisplay.h; sourceTree = "<group>"; };
+		1BFAD7C4A9244561094B8C367ED61501 /* AGSJSONSerializableBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSJSONSerializableBase.h; path = ArcGIS.framework/Versions/Current/Headers/AGSJSONSerializableBase.h; sourceTree = "<group>"; };
+		1BFEAC980CF6A0444A8BAD27B0FB8807 /* AGSPopupsViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupsViewControllerDelegate.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupsViewControllerDelegate.h; sourceTree = "<group>"; };
+		1C1708BC04F4CEDE4618E9FACF70C02F /* AGSServiceFeatureTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceFeatureTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceFeatureTable.h; sourceTree = "<group>"; };
+		1C376EA20AF0DD7D902D003F2FFCEACF /* AGSGenerateGeodatabaseParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateGeodatabaseParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateGeodatabaseParameters.h; sourceTree = "<group>"; };
+		1C948C381BEF6999ACBAAF88FAF8CA77 /* AGSPopupExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupExpression.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupExpression.h; sourceTree = "<group>"; };
+		1D2D30573BA7223D1724CE5B6336205E /* AGSAuthenticationManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAuthenticationManagerDelegate.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAuthenticationManagerDelegate.h; sourceTree = "<group>"; };
+		1E801B2646DB97659B7FFE02375A4E73 /* AGSServiceDocumentInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceDocumentInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceDocumentInfo.h; sourceTree = "<group>"; };
+		1FA8A98377E68C74537539DA38BAA5A7 /* AGSArcGISMapServiceCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISMapServiceCapabilities.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISMapServiceCapabilities.h; sourceTree = "<group>"; };
+		1FC54D30F816DC3FE9DBAE86A177091F /* AGSSketchEditConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSketchEditConfiguration.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSketchEditConfiguration.h; sourceTree = "<group>"; };
+		20010EA523F1B90A0E138998B5CC7BDE /* AGSMultipoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultipoint.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultipoint.h; sourceTree = "<group>"; };
+		206EEA3A1839949CE0689C4910B39FDE /* AGSSketchEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSketchEditor.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSketchEditor.h; sourceTree = "<group>"; };
+		20C2D82F9165C73C6FFEF94AA232CD58 /* AGSGeodeticDistanceResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodeticDistanceResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodeticDistanceResult.h; sourceTree = "<group>"; };
+		20F0ECCAE83F555F093384ECBF902770 /* AGSSourceObjectPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSourceObjectPosition.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSourceObjectPosition.h; sourceTree = "<group>"; };
+		21708B929DFA384255E785E3AB1BB96D /* AGSOfflineMapSyncTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapSyncTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapSyncTask.h; sourceTree = "<group>"; };
+		229492BBFBCB59F7A589A6475C5EB511 /* AGSKMLFolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLFolder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLFolder.h; sourceTree = "<group>"; };
+		2362FEA7BB70E59B5525432B17B7D836 /* AGSLayerSceneProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLayerSceneProperties.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLayerSceneProperties.h; sourceTree = "<group>"; };
+		25CE0C73EFFEA5F50E06D7F6ECAEFB2B /* AGSImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSImage.h; path = ArcGIS.framework/Versions/Current/Headers/AGSImage.h; sourceTree = "<group>"; };
+		25E4F5EB8DA2B9DD9A3E5AEA4A9B88C2 /* AGSRouteParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRouteParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRouteParameters.h; sourceTree = "<group>"; };
+		2692F63A3BA9DBE7BA5808455F1B4FC8 /* AGSColormap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSColormap.h; path = ArcGIS.framework/Versions/Current/Headers/AGSColormap.h; sourceTree = "<group>"; };
+		27346EEC1282CEA133D93C98EB65A84B /* AGSLatitudeLongitudeGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLatitudeLongitudeGrid.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLatitudeLongitudeGrid.h; sourceTree = "<group>"; };
+		27FC2FBC7AD2E45162DA7CD74C364A00 /* AGSPortalUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalUser.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalUser.h; sourceTree = "<group>"; };
+		288C18685CD5AF12E5DF9363B8BDCD5D /* AGSGeoprocessingDouble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingDouble.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingDouble.h; sourceTree = "<group>"; };
+		28D51265BFAF77DFB126583FE74C428C /* AGSSyncCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSyncCapabilities.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSyncCapabilities.h; sourceTree = "<group>"; };
+		29B8C2EC93CA128765563291A33EDDEA /* AGSPreplannedMapArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPreplannedMapArea.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPreplannedMapArea.h; sourceTree = "<group>"; };
+		2A14C63E205FC9F958BFEE6DBD4551F6 /* AGSArcGISSublayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISSublayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISSublayer.h; sourceTree = "<group>"; };
+		2ACF587C5B464FC3D24696277BBB6125 /* AGSGeoprocessingBoolean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingBoolean.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingBoolean.h; sourceTree = "<group>"; };
+		2AFFDA01AB127A2B8E237BE9FB1C27E2 /* AGSGeodesicEllipseParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodesicEllipseParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodesicEllipseParameters.h; sourceTree = "<group>"; };
+		2B37A27A9913CA2C43598127433B55C9 /* AGSLicenseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLicenseInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLicenseInfo.h; sourceTree = "<group>"; };
+		2B7EA5867466A048D074C88A4D3C16F4 /* AGSMapSublayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMapSublayerSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMapSublayerSource.h; sourceTree = "<group>"; };
+		2BC6687AD30F750B9B5932F90D63C484 /* AGSCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCameraController.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCameraController.h; sourceTree = "<group>"; };
+		2CB5CDEA2028B5FFA458788EBE803521 /* AGSGeoprocessingMultiValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingMultiValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingMultiValue.h; sourceTree = "<group>"; };
+		2D870065D67F57F40D394A4050D32D5A /* AGSSyncGeodatabaseJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSyncGeodatabaseJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSyncGeodatabaseJob.h; sourceTree = "<group>"; };
+		2DA31C54861227D494BA53546F971395 /* AGSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLayer.h; sourceTree = "<group>"; };
+		2DB9C08B1407574EA36D179674680A10 /* AGSAuthenticationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAuthenticationManager.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAuthenticationManager.h; sourceTree = "<group>"; };
+		2DEAFD26CFD79F4EA9C2E730AB48BFCD /* AGSOfflineMapSyncResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapSyncResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapSyncResult.h; sourceTree = "<group>"; };
+		2EAF4C637A27A696545F266CE6C572A6 /* AGSViewControllerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSViewControllerBase.h; path = ArcGIS.framework/Versions/Current/Headers/AGSViewControllerBase.h; sourceTree = "<group>"; };
+		2F4FEF507BD51C61C00E6AE12177F643 /* AGSGeometryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeometryBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeometryBuilder.h; sourceTree = "<group>"; };
+		30A1C4F4D2C40D22C7247DF9C7E913B5 /* AGSLoadableValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLoadableValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLoadableValue.h; sourceTree = "<group>"; };
+		315DC82DA36B7E8E536D684CBEFED78B /* AGSKMLPlacemark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLPlacemark.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLPlacemark.h; sourceTree = "<group>"; };
+		3161061F476698F28ABA721AF3D56A09 /* AGSClosestFacilityResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClosestFacilityResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClosestFacilityResult.h; sourceTree = "<group>"; };
+		3189F9ADC5A3C8D9ABA4301756C67A4B /* AGSLegendInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLegendInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLegendInfo.h; sourceTree = "<group>"; };
+		335407FB719D342C3DF17D950A93C668 /* NSValue+AGSEnumSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+AGSEnumSupport.h"; path = "ArcGIS.framework/Versions/Current/Headers/NSValue+AGSEnumSupport.h"; sourceTree = "<group>"; };
+		358914E0B9C9C98A99CDB385189B794E /* AGSFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeature.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeature.h; sourceTree = "<group>"; };
+		38075DB18243412C89E529D15C3B6963 /* AGSTileKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTileKey.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTileKey.h; sourceTree = "<group>"; };
+		392F8998188B1D2967690DC5246B0153 /* AGSKMLContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLContainer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLContainer.h; sourceTree = "<group>"; };
+		395C351E8CDB40105353FB40F870D432 /* AGSReverseGeocodeParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSReverseGeocodeParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSReverseGeocodeParameters.h; sourceTree = "<group>"; };
+		39ECBE388EEB2ED88AEAA8E765BADFA4 /* AGSDrawingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDrawingInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDrawingInfo.h; sourceTree = "<group>"; };
+		3A0331196CA57AC0D5DDF2A300DCC609 /* AGSColorRamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSColorRamp.h; path = ArcGIS.framework/Versions/Current/Headers/AGSColorRamp.h; sourceTree = "<group>"; };
+		3A111146D913F5C79A8DB94076D4449C /* AGSGenerateGeodatabaseJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateGeodatabaseJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateGeodatabaseJob.h; sourceTree = "<group>"; };
+		3AF11DDBDB3B48A738F4156D24830AE0 /* AGSPopupMediaValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupMediaValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupMediaValue.h; sourceTree = "<group>"; };
+		3BAB7C80C84C2264B457C1E6A13B4929 /* AGSGeoPackageRaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoPackageRaster.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoPackageRaster.h; sourceTree = "<group>"; };
+		3BC16278AA583E18E58355AE5C9D8D5E /* AGSDownloadPreplannedOfflineMapJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDownloadPreplannedOfflineMapJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDownloadPreplannedOfflineMapJob.h; sourceTree = "<group>"; };
+		3D65EBCA1C220BF73660C7D7079D5D80 /* AGSServiceImageTiledLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceImageTiledLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceImageTiledLayer.h; sourceTree = "<group>"; };
+		3DA3CA6B0168191C5BD4E46B7EA0FEA1 /* AGSExportVectorTilesJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportVectorTilesJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportVectorTilesJob.h; sourceTree = "<group>"; };
+		3F3AE506CF4ACF2FCA28890AC6EAF901 /* AGSBookmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSBookmark.h; path = ArcGIS.framework/Versions/Current/Headers/AGSBookmark.h; sourceTree = "<group>"; };
+		3F49C34DD7117230B68F8BD6636AC5C4 /* AGSRelatedFeatureQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRelatedFeatureQueryResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRelatedFeatureQueryResult.h; sourceTree = "<group>"; };
+		403C94B45E888F915D2F3CC9D2C7834E /* AGSPictureMarkerSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPictureMarkerSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPictureMarkerSymbol.h; sourceTree = "<group>"; };
+		40881D147D7159EDC6636085EF03212A /* AGSGeoprocessingFeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingFeatures.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingFeatures.h; sourceTree = "<group>"; };
+		40E63BB13555153A04B90227BC5A923F /* AGSAngularUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAngularUnit.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAngularUnit.h; sourceTree = "<group>"; };
+		42376440152C324D3A94CCEAEF4042F6 /* AGSArcGISFeatureTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISFeatureTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISFeatureTable.h; sourceTree = "<group>"; };
+		427DC6C54FA552209821F1E99A22544C /* AGSPopupField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupField.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupField.h; sourceTree = "<group>"; };
+		42D4DDFE1E4EC2FBDF65FCB317C24016 /* AGSSymbolStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSymbolStyle.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSymbolStyle.h; sourceTree = "<group>"; };
+		438EED22114CFBFE78CFB7BB1C29969C /* AGSImageServiceRaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSImageServiceRaster.h; path = ArcGIS.framework/Versions/Current/Headers/AGSImageServiceRaster.h; sourceTree = "<group>"; };
+		43D08755268C686AA5C495A7A6ABE6F2 /* AGSDictionaryRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDictionaryRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDictionaryRenderer.h; sourceTree = "<group>"; };
+		442E3BA6369222AFCE86CE59FB8CA0F7 /* AGSMosaicDatasetRaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMosaicDatasetRaster.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMosaicDatasetRaster.h; sourceTree = "<group>"; };
+		44468A392C01B42289BB0F3780824911 /* AGSRasterElevationSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRasterElevationSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRasterElevationSource.h; sourceTree = "<group>"; };
+		453D5A7D28CF9040D73A7C15CDB5A391 /* AGSPointBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPointBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPointBuilder.h; sourceTree = "<group>"; };
+		45970728BE277F8E66BE78C8ECCB07FB /* AGSStretchParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStretchParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStretchParameters.h; sourceTree = "<group>"; };
+		460AF3D3A2C0AC539DB616DCC6E1EC31 /* AGSDistanceCompositeSceneSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDistanceCompositeSceneSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDistanceCompositeSceneSymbol.h; sourceTree = "<group>"; };
+		461FB7CF5E6B359F618594D836F3648D /* AGSEnvelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEnvelope.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEnvelope.h; sourceTree = "<group>"; };
+		462074C88EE09D35745C7CB1D87D708F /* AGSFeatureSubtype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureSubtype.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureSubtype.h; sourceTree = "<group>"; };
+		46BCD5E5ACD9B922E39019777D0D1AF3 /* AGSPopupFieldFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupFieldFormat.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupFieldFormat.h; sourceTree = "<group>"; };
+		46BD797763FC11DD4ACC329DCCC26E5A /* AGSSimpleMarkerSceneSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSimpleMarkerSceneSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSimpleMarkerSceneSymbol.h; sourceTree = "<group>"; };
+		46FFF3D20AC84604A865194FDB18F16E /* AGSServiceAreaTaskInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaTaskInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaTaskInfo.h; sourceTree = "<group>"; };
+		470D1656F5CA122A4FAB87F8B0309E7F /* AGSCallout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCallout.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCallout.h; sourceTree = "<group>"; };
+		47860D3633D32AB5EBD9CCA323DF3D32 /* Pods-FlightVisualizerSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlightVisualizerSwift-resources.sh"; sourceTree = "<group>"; };
+		479CF63148974BDD30128D409F59A050 /* AGSSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSymbol.h; sourceTree = "<group>"; };
+		4810C952C9401A2BE5BCE8680020EEBE /* AGSWMTSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMTSService.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMTSService.h; sourceTree = "<group>"; };
+		497FABE6466FE22AB8D1D0371D4C8C0F /* AGSGeoprocessingResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingResult.h; sourceTree = "<group>"; };
+		49E0E5900CFF7C25B917D351D8605BEA /* AGSLabelingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLabelingInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLabelingInfo.h; sourceTree = "<group>"; };
+		4AB0A5720F681308ECCAFF09257A72FC /* AGSRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRoute.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRoute.h; sourceTree = "<group>"; };
+		4AB66710F160D24AF1BB5D9069F54D04 /* Pods-FlightVisualizerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlightVisualizerSwift-Info.plist"; sourceTree = "<group>"; };
+		4B12B180F89C57485CFD01CFA44D7BC6 /* AGSGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGrid.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGrid.h; sourceTree = "<group>"; };
+		4B9241CC81C3181F359E73885BD0C6A9 /* AGSGeographicTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeographicTransformation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeographicTransformation.h; sourceTree = "<group>"; };
+		4BA1116819F0483E241E89032EDEE7F6 /* AGSArcGISTiledElevationSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISTiledElevationSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISTiledElevationSource.h; sourceTree = "<group>"; };
+		4BD3B31F4CAE715554FC9D6ABA9FC3CB /* AGSGlobeCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGlobeCameraController.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGlobeCameraController.h; sourceTree = "<group>"; };
+		4DBF08476989D5EE893733371ADB4A6A /* AGSMapViewInteractionOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMapViewInteractionOptions.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMapViewInteractionOptions.h; sourceTree = "<group>"; };
+		4DFB11534D7054031CC80093ACDF5712 /* AGSPopupDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupDefinition.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupDefinition.h; sourceTree = "<group>"; };
+		4E1A2EFFD3C878D6EF59F6B25990C71E /* AGSStretchRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStretchRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStretchRenderer.h; sourceTree = "<group>"; };
+		4EF60B2D51E1DDACE990ADED8E35B826 /* AGSLabelDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLabelDefinition.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLabelDefinition.h; sourceTree = "<group>"; };
+		4EFF83A0F5AE8DC1E44A524813079AF1 /* AGSSimulatedLocationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSimulatedLocationDataSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSimulatedLocationDataSource.h; sourceTree = "<group>"; };
+		51191C78F5E1C40BBFBE0818D0AC9F60 /* AGSTableQuerySublayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTableQuerySublayerSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTableQuerySublayerSource.h; sourceTree = "<group>"; };
+		52A119FD0EC1187DAC91DA26DF21402F /* AGSDirectionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDirectionEvent.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDirectionEvent.h; sourceTree = "<group>"; };
+		53ACCB603FF7BF8517493C79B566EE10 /* AGSOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOperation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOperation.h; sourceTree = "<group>"; };
+		53ED1A78D82EA05FAA3A6B291C16CB89 /* AGSMultilayerPointSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultilayerPointSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultilayerPointSymbol.h; sourceTree = "<group>"; };
+		54DA79FC065B68F387CD8F727874D483 /* AGSWMSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMSService.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMSService.h; sourceTree = "<group>"; };
+		54FAFD53A47F6B27BEF21A774C1B3B60 /* AGSLoadSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLoadSettings.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLoadSettings.h; sourceTree = "<group>"; };
+		5629A381321B0A009581B8393DCA30AA /* AGSJSONSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSJSONSerializable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSJSONSerializable.h; sourceTree = "<group>"; };
+		565E97C4012C71A32E9B8E99DBE0360B /* AGSGeoElementLineOfSight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoElementLineOfSight.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoElementLineOfSight.h; sourceTree = "<group>"; };
+		57020F139E4AD99CC9CE49D6D275F6A7 /* AGSClosestFacilityParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClosestFacilityParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClosestFacilityParameters.h; sourceTree = "<group>"; };
+		57517EB7DF007E5005B8F875827FD7EC /* AGSArcGISTiledSublayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISTiledSublayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISTiledSublayer.h; sourceTree = "<group>"; };
+		581D66583120216CBCFD28D98DCC337D /* AGSGeoprocessingString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingString.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingString.h; sourceTree = "<group>"; };
+		5846EFD85ED1C4A8C7FC774466A9B948 /* AGSStatisticRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStatisticRecord.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStatisticRecord.h; sourceTree = "<group>"; };
+		588E1D7534D82AC1FCC4F9742028AAB5 /* AGSFeatureCollectionTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureCollectionTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureCollectionTable.h; sourceTree = "<group>"; };
+		599AEA6271B7A1C48BB801123A77DBCE /* AGSLocationDistanceMeasurement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocationDistanceMeasurement.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocationDistanceMeasurement.h; sourceTree = "<group>"; };
+		5A2452DEBCB2DFB7FC6810E0C5A8EE6E /* AGSRasterFunctionArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRasterFunctionArguments.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRasterFunctionArguments.h; sourceTree = "<group>"; };
+		5A597FF1598443F754B6DD8BC0BF5685 /* AGSHillshadeRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSHillshadeRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSHillshadeRenderer.h; sourceTree = "<group>"; };
+		5C1A1BDFF71D36EAA82ECA07741BCAEF /* AGSOfflineMapTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapTask.h; sourceTree = "<group>"; };
+		5C694B340168C9205CD01A916ECDC307 /* AGSGeocodeParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeocodeParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeocodeParameters.h; sourceTree = "<group>"; };
+		5C6AE9F1AD979E71BE3EE6287B8AD573 /* AGSExportTileCacheParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportTileCacheParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportTileCacheParameters.h; sourceTree = "<group>"; };
+		5DE6A5183B791055B7107883ADB93DF1 /* AGSTransportationNetworkDataset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTransportationNetworkDataset.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTransportationNetworkDataset.h; sourceTree = "<group>"; };
+		5F2E76281EE59F0608035DB581D5F5E1 /* AGSHeatmapRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSHeatmapRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSHeatmapRenderer.h; sourceTree = "<group>"; };
+		5F6871B18643A269E8421692B3CE7ACE /* AGSOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOperationQueue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOperationQueue.h; sourceTree = "<group>"; };
+		5FB954F91905126BCFF8E59594184B72 /* AGSMarkerSceneSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMarkerSceneSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMarkerSceneSymbol.h; sourceTree = "<group>"; };
+		62D17E1685C0EDCD25ACB5CD1650728A /* AGSFeatureEditResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureEditResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureEditResult.h; sourceTree = "<group>"; };
+		62F93A380800EAB25F181DBFEFDEDCC5 /* AGSMinMaxStretchParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMinMaxStretchParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMinMaxStretchParameters.h; sourceTree = "<group>"; };
+		6390408CF1E5BFA51C130ACB4E92F4FE /* AGSUnsupportedSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUnsupportedSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUnsupportedSymbol.h; sourceTree = "<group>"; };
+		63E4D585E82A0CAF059EC6C2E4FEF2F5 /* AGSArcGISFeatureServiceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISFeatureServiceInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISFeatureServiceInfo.h; sourceTree = "<group>"; };
+		640A29DEF4167D460A2882C1525EDCAA /* AGSLinearUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLinearUnit.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLinearUnit.h; sourceTree = "<group>"; };
+		640EC4E8695590204E2FA4E9A0BB77F8 /* AGSAnalysisOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAnalysisOverlay.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAnalysisOverlay.h; sourceTree = "<group>"; };
+		647D2342EC97291F261BC7CBFF1650D9 /* AGSTableSublayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTableSublayerSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTableSublayerSource.h; sourceTree = "<group>"; };
+		6586152B9E450C9363693337E78B57C6 /* AGSLayerContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLayerContent.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLayerContent.h; sourceTree = "<group>"; };
+		66300EF5DAB94D3CB7977B434CBCB85A /* NSBundle+AGSBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AGSBundle.h"; path = "ArcGIS.framework/Versions/Current/Headers/NSBundle+AGSBundle.h"; sourceTree = "<group>"; };
+		66469920DB480A62056ACDD20BBB70D4 /* AGSLicense.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLicense.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLicense.h; sourceTree = "<group>"; };
+		66F8899DE9DFD09CC3DAE5BD7E0313ED /* AGSImageAdjustmentLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSImageAdjustmentLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSImageAdjustmentLayer.h; sourceTree = "<group>"; };
+		673B794A53AA0A02BC9035FB3B859565 /* AGSMutablePointCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMutablePointCollection.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMutablePointCollection.h; sourceTree = "<group>"; };
+		68406D346E1984DAFFDBB2BE8F94D2DE /* AGSRouteTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRouteTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRouteTask.h; sourceTree = "<group>"; };
+		687402EEFB12BF0500B49854953A3ED6 /* AGSArcGISVectorTiledLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISVectorTiledLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISVectorTiledLayer.h; sourceTree = "<group>"; };
+		68AECB2EBF68EDF6AA2A19B4838E7B33 /* AGSGraphicsOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGraphicsOverlay.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGraphicsOverlay.h; sourceTree = "<group>"; };
+		68E52B7D72B6FE55413FF1634670B337 /* AGSGeoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoView.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoView.h; sourceTree = "<group>"; };
+		6A41D98E79171F7EA8D977C92DD9330A /* AGSPortalItemContentParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalItemContentParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalItemContentParameters.h; sourceTree = "<group>"; };
+		6A5518C400AFD5658E0D0EDE46A6DCB1 /* AGSFeatureLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureLayer.h; sourceTree = "<group>"; };
+		6A96C5B013A936BA9A4E84D30EFA5B47 /* AGSDictionarySymbolStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDictionarySymbolStyle.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDictionarySymbolStyle.h; sourceTree = "<group>"; };
+		6B1B2F402954F91096FC29EDC268E86D /* AGSKMLViewpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLViewpoint.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLViewpoint.h; sourceTree = "<group>"; };
+		6B3D23475572D4DFE47DA1D4EF0AA1C4 /* AGSAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAttachment.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAttachment.h; sourceTree = "<group>"; };
+		6B43688FC19C8231829D7135868C2475 /* AGSArcGISMapImageLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISMapImageLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISMapImageLayer.h; sourceTree = "<group>"; };
+		6B5930BF1D9D9687A988F3B9729CB39C /* AGSRasterSublayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRasterSublayerSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRasterSublayerSource.h; sourceTree = "<group>"; };
+		6BC4FF74210EBEDBBE55C8FC37C88D83 /* AGSMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMap.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMap.h; sourceTree = "<group>"; };
+		6C0146368A71ECB69D374BEE4EF33108 /* AGSGeoprocessingDataFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingDataFile.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingDataFile.h; sourceTree = "<group>"; };
+		6C313A97293199DE1EF4396F450419C8 /* AGSGeoprocessingParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingParameters.h; sourceTree = "<group>"; };
+		6CD85A53C829EB818712B554AB2E0879 /* AGSENCDisplayCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCDisplayCategories.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCDisplayCategories.h; sourceTree = "<group>"; };
+		6D80F4486C2C39B0C6BC10E6A45BAC3E /* AGSArcGISImageServiceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISImageServiceInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISImageServiceInfo.h; sourceTree = "<group>"; };
+		6DA870CAF44AF1FED8703508FA89A5E9 /* AGSArcGISFeatureLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISFeatureLayerInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISFeatureLayerInfo.h; sourceTree = "<group>"; };
+		6E2CD560389159F726F3AC57D27C025C /* AGSDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDefines.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDefines.h; sourceTree = "<group>"; };
+		6E3BE681C6144AEDD130C5AF269573D7 /* AGSSyncLayerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSyncLayerResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSyncLayerResult.h; sourceTree = "<group>"; };
+		6F97BE10B7D8A1E7F0A0459E66830D14 /* AGSLocationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocationDataSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocationDataSource.h; sourceTree = "<group>"; };
+		6FEAC6CEF457E2D6EC2C5C16BDC45B69 /* AGSImageTiledLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSImageTiledLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSImageTiledLayer.h; sourceTree = "<group>"; };
+		7088E9419496EBF9D757926679A12C24 /* AGSPointBarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPointBarrier.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPointBarrier.h; sourceTree = "<group>"; };
+		70936FDEC59114F885174762D252B228 /* AGSFeatureQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureQueryResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureQueryResult.h; sourceTree = "<group>"; };
+		711A0AEC2C801898B03760A183CD839E /* AGSPopupsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupsViewController.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupsViewController.h; sourceTree = "<group>"; };
+		717D938CE82A8DBB5C29E620928C2F28 /* AGSLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocation.h; sourceTree = "<group>"; };
+		71AD283ADBEB502C3F3B23A792ACBE1B /* AGSEnvelopeBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEnvelopeBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEnvelopeBuilder.h; sourceTree = "<group>"; };
+		72067FFCDD3AAEA2C3E5E422A9AA3F40 /* AGSMultilayerPolylineSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultilayerPolylineSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultilayerPolylineSymbol.h; sourceTree = "<group>"; };
+		735C205600A6A842127A678D30422269 /* AGSPolylineBarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPolylineBarrier.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPolylineBarrier.h; sourceTree = "<group>"; };
+		73CA03C31630D889677F8A4DB24B6E90 /* AGSTileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTileInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTileInfo.h; sourceTree = "<group>"; };
+		74E335435FF6DD6C704B359862F1252B /* AGSVectorTileStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSVectorTileStyle.h; path = ArcGIS.framework/Versions/Current/Headers/AGSVectorTileStyle.h; sourceTree = "<group>"; };
+		74ED917D3025EF7F4A700E26797788C8 /* AGSMobileBasemapLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMobileBasemapLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMobileBasemapLayer.h; sourceTree = "<group>"; };
+		7504D52D322C168A49E1406847577C93 /* AGSMultipartBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultipartBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultipartBuilder.h; sourceTree = "<group>"; };
+		760D795B1A6DCD07204CD070FFA0814E /* AGSStatisticsQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStatisticsQueryResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStatisticsQueryResult.h; sourceTree = "<group>"; };
+		761B9FA848841263C74F16B01BC256CD /* AGSSimpleLineSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSimpleLineSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSimpleLineSymbol.h; sourceTree = "<group>"; };
+		76789D886A460C0FC4117937B57F16B1 /* AGSSimpleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSimpleRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSimpleRenderer.h; sourceTree = "<group>"; };
+		773ED74F4EA7359D1DA130CA93DB9723 /* AGSGeoPackageFeatureTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoPackageFeatureTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoPackageFeatureTable.h; sourceTree = "<group>"; };
+		77D39FAD27F2C7DFF69A04EDFF1749EB /* AGSRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRequestConfiguration.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRequestConfiguration.h; sourceTree = "<group>"; };
+		780164E2C554094E02059BD62983D59F /* AGSHistogramEqualizationStretchParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSHistogramEqualizationStretchParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSHistogramEqualizationStretchParameters.h; sourceTree = "<group>"; };
+		7B06DAA36E071FA1079AF7FDCAD17B28 /* AGSPopupAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupAttachment.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupAttachment.h; sourceTree = "<group>"; };
+		7BFAD23AE465990F5B01AF1A20BE8DC4 /* AGSVectorTileCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSVectorTileCache.h; path = ArcGIS.framework/Versions/Current/Headers/AGSVectorTileCache.h; sourceTree = "<group>"; };
+		7D8D84D446CE14A9F2A093C681BBF245 /* Pods-FlightVisualizerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlightVisualizerSwift-dummy.m"; sourceTree = "<group>"; };
+		7E1C0BC0640B80457DCF162DA4F42EAA /* AGSGeoprocessingParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingParameter.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingParameter.h; sourceTree = "<group>"; };
+		7E3198622C35EC35ED01224702D02CDE /* AGSUSNGGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUSNGGrid.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUSNGGrid.h; sourceTree = "<group>"; };
+		7EEBA1D16461BEF79D698294E2969416 /* AGSServiceAreaTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaTask.h; sourceTree = "<group>"; };
+		7EEBCE1F970E478B89788F74B27B48AA /* AGSLocalItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocalItem.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocalItem.h; sourceTree = "<group>"; };
+		7FDF08C0EBA64E40FCCA0ADAD7932170 /* AGSQueryParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSQueryParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSQueryParameters.h; sourceTree = "<group>"; };
+		7FEEE99D2A3D2CC25EB6ADAE4FEE5732 /* NSBlockOperation+AGSCancelable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBlockOperation+AGSCancelable.h"; path = "ArcGIS.framework/Versions/Current/Headers/NSBlockOperation+AGSCancelable.h"; sourceTree = "<group>"; };
+		7FF705B020E20409296FAF4DDEC6CAF3 /* AGSGeodatabaseDataset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodatabaseDataset.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodatabaseDataset.h; sourceTree = "<group>"; };
+		8250D7F7310DF815E3A469142644F6BE /* AGSMultilayerPolygonSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultilayerPolygonSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultilayerPolygonSymbol.h; sourceTree = "<group>"; };
+		82558E38363CAD7C7DE98CCA3CA04A23 /* AGSPictureFillSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPictureFillSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPictureFillSymbol.h; sourceTree = "<group>"; };
+		8291ED93D6F3BA33596992C48CD397C1 /* AGSSimpleMarkerSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSimpleMarkerSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSimpleMarkerSymbol.h; sourceTree = "<group>"; };
+		82D6988C24FE7370BC31BB67834E8ECF /* AGSCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCamera.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCamera.h; sourceTree = "<group>"; };
+		83254D25CFDC403203A88FAC6CF262CD /* AGSGeocodeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeocodeResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeocodeResult.h; sourceTree = "<group>"; };
+		835F77A4C7387C8DDCB6DAD245CF7DB4 /* AGSArcGISTiledLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISTiledLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISTiledLayer.h; sourceTree = "<group>"; };
+		84ABF70F04C686D982C45CA386C225C3 /* AGSPortal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortal.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortal.h; sourceTree = "<group>"; };
+		85161A4C73D636B047DFBBC95D6EE8B5 /* AGSTimeReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTimeReference.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTimeReference.h; sourceTree = "<group>"; };
+		853CA5045317D9EE4750F22C2D10B7B3 /* AGSUTMGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUTMGrid.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUTMGrid.h; sourceTree = "<group>"; };
+		8552D2C428B3ED27B5DA05083140DD5A /* AGSOfflineMapItemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapItemInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapItemInfo.h; sourceTree = "<group>"; };
+		85A491633DB81FED6DBDB65D49ED01E1 /* AGSOrbitLocationCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOrbitLocationCameraController.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOrbitLocationCameraController.h; sourceTree = "<group>"; };
+		86277514C5E799D569C2B0088C412CD4 /* AGSENCExchangeSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCExchangeSet.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCExchangeSet.h; sourceTree = "<group>"; };
+		8663825CB8488DCA8A35AFF5B43F0C1D /* AGSSketchVertex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSketchVertex.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSketchVertex.h; sourceTree = "<group>"; };
+		8679BCDD3690D467CBEBA84D10E6D97D /* AGSENCDisplaySettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCDisplaySettings.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCDisplaySettings.h; sourceTree = "<group>"; };
+		86D82E73AF68B9482D208ED5924A36EE /* AGSFeatureType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureType.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureType.h; sourceTree = "<group>"; };
+		88C93EEDD8E40EC278D93E4935CBB525 /* AGSJobMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSJobMessage.h; path = ArcGIS.framework/Versions/Current/Headers/AGSJobMessage.h; sourceTree = "<group>"; };
+		88CFFBD49ED456AEF1FDE8275E641042 /* AGSEnumerations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEnumerations.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEnumerations.h; sourceTree = "<group>"; };
+		88DB35E73F807F5A665D78E0846650F4 /* AGSServiceAreaFacility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaFacility.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaFacility.h; sourceTree = "<group>"; };
+		891C27CE5FEBB4890EE283B55C596D42 /* AGSGenerateOfflineMapResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateOfflineMapResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateOfflineMapResult.h; sourceTree = "<group>"; };
+		89305CD44F63EBD2A64B49D5C56D1F34 /* AGSBlendRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSBlendRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSBlendRenderer.h; sourceTree = "<group>"; };
+		8975E73196C9DBC3BE526A6F505B4C73 /* AGSBasemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSBasemap.h; path = ArcGIS.framework/Versions/Current/Headers/AGSBasemap.h; sourceTree = "<group>"; };
+		89AA8B23B493F6EAE8AEFCE14F8BBC63 /* AGSDownloadPreplannedOfflineMapResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDownloadPreplannedOfflineMapResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDownloadPreplannedOfflineMapResult.h; sourceTree = "<group>"; };
+		89C45B81987D7B9B570C2120AE6FFCE5 /* AGSRouteTaskInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRouteTaskInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRouteTaskInfo.h; sourceTree = "<group>"; };
+		89D888FF9CEB690E27C3CDD9EDB6485E /* AGSSyncLayerOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSyncLayerOption.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSyncLayerOption.h; sourceTree = "<group>"; };
+		8AB8819D3EBC96B4C13D15A47DFF3D46 /* AGSClosestFacilityTaskInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClosestFacilityTaskInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClosestFacilityTaskInfo.h; sourceTree = "<group>"; };
+		8B71207992EDE2FA4EA90413A2E58E08 /* AGSPolygonBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPolygonBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPolygonBuilder.h; sourceTree = "<group>"; };
+		8BA6E34CFD9FB78B7499EF5C9453DD2A /* AGSVectorTileSourceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSVectorTileSourceInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSVectorTileSourceInfo.h; sourceTree = "<group>"; };
+		8BD1B565A2050B9D48BD9B930933A628 /* AGSFeatureServiceCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureServiceCapabilities.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureServiceCapabilities.h; sourceTree = "<group>"; };
+		8C846E3C8513F3F51952E0F1977BA493 /* AGSCoordinateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCoordinateFormatter.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCoordinateFormatter.h; sourceTree = "<group>"; };
+		8C96B01487D5B4A8A62094E1AC24869B /* AGSKMLScreenOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLScreenOverlay.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLScreenOverlay.h; sourceTree = "<group>"; };
+		8D1F0A439CF17D3E94C834D687C5E701 /* AGSLineOfSight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLineOfSight.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLineOfSight.h; sourceTree = "<group>"; };
+		8D48DACFA6FC618963B9C68D93807279 /* AGSRasterFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRasterFunction.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRasterFunction.h; sourceTree = "<group>"; };
+		8D66C7BDF4494F3A2281C10D7E4310E3 /* AGSMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMapView.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMapView.h; sourceTree = "<group>"; };
+		8EE99333BECA746B1BAAA897096A9CF7 /* AGSOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOpenGLView.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOpenGLView.h; sourceTree = "<group>"; };
+		8EFA924058E36DE65BF0E5F60E4F426C /* AGSAttributeParameterValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAttributeParameterValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAttributeParameterValue.h; sourceTree = "<group>"; };
+		8F47B3F4DC67ED4DE28786BCBC51AF57 /* AGSLoadableImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLoadableImage.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLoadableImage.h; sourceTree = "<group>"; };
+		8FD92654B776DEDDFDF71E7F19228E36 /* AGSSceneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSceneView.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSceneView.h; sourceTree = "<group>"; };
+		8FE5064463DB38C57A11BFA529064167 /* AGSSyncGeodatabaseParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSyncGeodatabaseParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSyncGeodatabaseParameters.h; sourceTree = "<group>"; };
+		900CAC5AB19C72A1D62B1DCAC5154D36 /* AGSGeoElementViewshed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoElementViewshed.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoElementViewshed.h; sourceTree = "<group>"; };
+		90375905FB0C0C528AA4A9E177C4BF36 /* AGSGeoprocessingDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingDate.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingDate.h; sourceTree = "<group>"; };
+		9186BCA635B0DD237520ECFB87F98D8F /* AGSViewpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSViewpoint.h; path = ArcGIS.framework/Versions/Current/Headers/AGSViewpoint.h; sourceTree = "<group>"; };
+		91936576882A784262E987597BFDF363 /* AGSIDInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSIDInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSIDInfo.h; sourceTree = "<group>"; };
+		923815A435B205B4F7BC7BDB285E53BA /* AGSExportTileCacheTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportTileCacheTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportTileCacheTask.h; sourceTree = "<group>"; };
+		92529173C8E26712E5FA2F6D9B6416DE /* AGSWMTSTileMatrixSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMTSTileMatrixSet.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMTSTileMatrixSet.h; sourceTree = "<group>"; };
+		931AF861884618B25AF568919431D75C /* AGSViewshed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSViewshed.h; path = ArcGIS.framework/Versions/Current/Headers/AGSViewshed.h; sourceTree = "<group>"; };
+		933852E8DF814B758BC08C9A2E92DFF7 /* AGSPortalQueryResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalQueryResultSet.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalQueryResultSet.h; sourceTree = "<group>"; };
+		945E2241BA0CBEAD7140489BD891781B /* AGSStatisticDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStatisticDefinition.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStatisticDefinition.h; sourceTree = "<group>"; };
+		946E1F0861329834A37C22AC4320668F /* AGSOrderBy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOrderBy.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOrderBy.h; sourceTree = "<group>"; };
+		94812A18DE6B6B6478C443DFD9946F5A /* AGSOfflineMapSyncJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapSyncJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapSyncJob.h; sourceTree = "<group>"; };
+		95273D98E45F0CC9809B2CDE29F0EE07 /* AGSFeatureSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureSet.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureSet.h; sourceTree = "<group>"; };
+		954ADAEE2467496ABC9079001550BF77 /* AGSFeatureTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureTable.h; sourceTree = "<group>"; };
+		9593A9A463CAEB5F0729FBE77DC83493 /* AGSCancelable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCancelable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCancelable.h; sourceTree = "<group>"; };
+		96DBC2D452954E569AF20850B549E237 /* AGSSpatialReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSpatialReference.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSpatialReference.h; sourceTree = "<group>"; };
+		96E65AF95A07085B59C3180ACDB256EC /* AGSPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPolygon.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPolygon.h; sourceTree = "<group>"; };
+		9762E7F57B575C310926D5FC8C080373 /* Pods-FlightVisualizerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlightVisualizerSwift.modulemap"; sourceTree = "<group>"; };
+		97D961D3C96537CAB693C13B61F64B88 /* AGSTextSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTextSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTextSymbol.h; sourceTree = "<group>"; };
+		982C882BCBCE2998F3EABE504B1D707E /* AGSMapViewCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMapViewCommon.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMapViewCommon.h; sourceTree = "<group>"; };
+		9834648FF01B2F0BED218353451377B9 /* AGSItemResourceCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSItemResourceCache.h; path = ArcGIS.framework/Versions/Current/Headers/AGSItemResourceCache.h; sourceTree = "<group>"; };
+		98EA04FB685813CAAF4167AF235F5649 /* AGSGPXLocationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGPXLocationDataSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGPXLocationDataSource.h; sourceTree = "<group>"; };
+		99061F5A051D3EFA4F705DCF61DE3267 /* AGSMutablePart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMutablePart.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMutablePart.h; sourceTree = "<group>"; };
+		99364260FA1FB4F3871B8CAA76EBFFD9 /* AGSLineSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLineSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLineSymbol.h; sourceTree = "<group>"; };
+		99F69313060CD7CE1AE4CB3A3EF1CDD0 /* AGSFillSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFillSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFillSymbol.h; sourceTree = "<group>"; };
+		9A31664FE98423DEBF0D4347B0351046 /* AGSOAuthConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOAuthConfiguration.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOAuthConfiguration.h; sourceTree = "<group>"; };
+		9A37B2584F4E826E6111E60D56446198 /* AGSIncident.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSIncident.h; path = ArcGIS.framework/Versions/Current/Headers/AGSIncident.h; sourceTree = "<group>"; };
+		9A816533380AF680008AC6392EA823AB /* ArcGIS.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		9A971039B7C2A5ECD4A0ADF3E420F5A3 /* AGSPolylineBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPolylineBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPolylineBuilder.h; sourceTree = "<group>"; };
+		9AEC9D1AB07197A3F34B8896C0C695B8 /* AGSUnknownLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUnknownLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUnknownLayer.h; sourceTree = "<group>"; };
+		9B859DE210E028EFE16F02D6D2869B9B /* AGSLocationToScreenResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocationToScreenResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocationToScreenResult.h; sourceTree = "<group>"; };
+		9B936D487A026A1FE506700B932DFFCE /* AGSRelatedQueryParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRelatedQueryParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRelatedQueryParameters.h; sourceTree = "<group>"; };
+		9B9E3FC3D94B77E1B942C251C6078125 /* AGSOfflineMapSyncParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapSyncParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapSyncParameters.h; sourceTree = "<group>"; };
+		9BCDB1FBB71FDC07C218D955A5F45E20 /* AGSEstimateTileCacheSizeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEstimateTileCacheSizeResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEstimateTileCacheSizeResult.h; sourceTree = "<group>"; };
+		9BEBC5499FA11E28FCC481B12D1A2B0A /* AGSExportVectorTilesTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportVectorTilesTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportVectorTilesTask.h; sourceTree = "<group>"; };
+		9C63D420EEDB3308988B7D5B0073E000 /* NSArray+AGSJSONSerializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+AGSJSONSerializable.h"; path = "ArcGIS.framework/Versions/Current/Headers/NSArray+AGSJSONSerializable.h"; sourceTree = "<group>"; };
+		9C9BCC06B312BD143717C3D2B35FC035 /* AGSBackgroundGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSBackgroundGrid.h; path = ArcGIS.framework/Versions/Current/Headers/AGSBackgroundGrid.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDC72A1018F6139635E1BF7260BBD21 /* AGSLevelOfDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLevelOfDetail.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLevelOfDetail.h; sourceTree = "<group>"; };
+		9E78E6038BE0A4E1A99A75100CBCDFC3 /* AGSGeoElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoElement.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoElement.h; sourceTree = "<group>"; };
+		9F10B32538C11CBFE603ECE47ECBA86A /* AGSPortalInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalInfo.h; sourceTree = "<group>"; };
+		9F123CACE12DD6D7E7B2206B6DDDFBE0 /* AGSOrbitGeoElementCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOrbitGeoElementCameraController.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOrbitGeoElementCameraController.h; sourceTree = "<group>"; };
+		9F45D8FB002955BDA5360CDAEE6827C2 /* AGSAddRastersParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAddRastersParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAddRastersParameters.h; sourceTree = "<group>"; };
+		A00FDA62B1CD2A284B71DE91F4DCAE77 /* AGSRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRenderer.h; sourceTree = "<group>"; };
+		A0686E01249362B2DF127EA6481044CA /* AGSKMLDataset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLDataset.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLDataset.h; sourceTree = "<group>"; };
+		A1568FF231B91531BFEB29B62EC9A380 /* AGSLocationLineOfSight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocationLineOfSight.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocationLineOfSight.h; sourceTree = "<group>"; };
+		A1EED09E34225D7301DD8ABFFE74C459 /* AGSArcGISSceneLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISSceneLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISSceneLayer.h; sourceTree = "<group>"; };
+		A326DBEF1F588F9DDABA4AD06387FE62 /* AGSGeoprocessingTaskInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingTaskInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingTaskInfo.h; sourceTree = "<group>"; };
+		A360CEB74D88474D6F01F61A0D0F0B02 /* AGSClosestFacilityRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClosestFacilityRoute.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClosestFacilityRoute.h; sourceTree = "<group>"; };
+		A38ED23B5285AD2AE98CCF9C70BD9349 /* AGSWMSLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMSLayerInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMSLayerInfo.h; sourceTree = "<group>"; };
+		A4CF2BD35AA96AD7339B1191E6214CCC /* AGSPercentClipStretchParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPercentClipStretchParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPercentClipStretchParameters.h; sourceTree = "<group>"; };
+		A4F12E9FC2FB5DEB5974A54180D7CCA7 /* AGSKeychainItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKeychainItem.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKeychainItem.h; sourceTree = "<group>"; };
+		A5B40315EE08248772F278CC38390EAA /* AGSFeatureCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureCollection.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureCollection.h; sourceTree = "<group>"; };
+		A84B8A5ED384DD16B3B407CC3AA927B5 /* AGSOfflineMapParametersKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapParametersKey.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapParametersKey.h; sourceTree = "<group>"; };
+		A88F588737989A5BA031BA03C07F84BF /* AGSLineSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLineSegment.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLineSegment.h; sourceTree = "<group>"; };
+		A8B86B8B280A27EFEA88799A3C82BE38 /* AGSStandardDeviationStretchParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStandardDeviationStretchParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStandardDeviationStretchParameters.h; sourceTree = "<group>"; };
+		A8F2F181E3C2B05D8DEE714A5DF75F46 /* AGSOwnershipBasedAccessControlInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOwnershipBasedAccessControlInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOwnershipBasedAccessControlInfo.h; sourceTree = "<group>"; };
+		A97CAFAD4CC99202419A52ED8A5A9883 /* AGSDistanceSymbolRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDistanceSymbolRange.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDistanceSymbolRange.h; sourceTree = "<group>"; };
+		A9D7A45C8B840783DA1AE5671DA02B4E /* AGSENCMarinerSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCMarinerSettings.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCMarinerSettings.h; sourceTree = "<group>"; };
+		A9EC1295D8E71275C421CF4BC2724CF8 /* AGSENCTextGroupVisibilitySettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCTextGroupVisibilitySettings.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCTextGroupVisibilitySettings.h; sourceTree = "<group>"; };
+		AB46CBA31719C48D79FAF46A99C285EA /* AGSPopupSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupSource.h; sourceTree = "<group>"; };
+		ABF19A494BEC0B0BDFEF99DC2AD710EE /* AGSServiceAreaPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaPolygon.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaPolygon.h; sourceTree = "<group>"; };
+		AC10E9D65A69A8FE0BA34BA7FC95588E /* AGSPopupMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupMedia.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupMedia.h; sourceTree = "<group>"; };
+		AC77AA4009A460DD97D78D68A8E1BA4F /* AGSTimeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTimeValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTimeValue.h; sourceTree = "<group>"; };
+		ACCF31882CD9733504746F9A0200DC7F /* AGSOpenGLView_OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOpenGLView_OSX.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOpenGLView_OSX.h; sourceTree = "<group>"; };
+		ADBC00E5AEDD40CB68182CF7CA6DC008 /* AGSPortalGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalGroup.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalGroup.h; sourceTree = "<group>"; };
+		AE413B5B83EBDF125652F30A811D2C56 /* AGSKMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLDocument.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLDocument.h; sourceTree = "<group>"; };
+		B1A8D4600A64BA4FD8BAA94207344767 /* AGSIdentifyGraphicsOverlayResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSIdentifyGraphicsOverlayResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSIdentifyGraphicsOverlayResult.h; sourceTree = "<group>"; };
+		B20120D51F1DB4D8C860D8A1C0AFAA59 /* AGSCostAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCostAttribute.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCostAttribute.h; sourceTree = "<group>"; };
+		B2317BBD6350969A688941A8A28EA192 /* AGSRemoteResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRemoteResource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRemoteResource.h; sourceTree = "<group>"; };
+		B293E107F772517273684982CE2140AF /* Pods-FlightVisualizerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlightVisualizerSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B2CE0979D79DC19415CE6310AFD984E5 /* AGSElevationSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSElevationSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSElevationSource.h; sourceTree = "<group>"; };
+		B2F8D6795D7C12C6BEF15BE9B953A94B /* AGSRangeDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRangeDomain.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRangeDomain.h; sourceTree = "<group>"; };
+		B3282CCEC7583ED70628DC25F44C77CA /* AGSGeoprocessingParameterInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingParameterInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingParameterInfo.h; sourceTree = "<group>"; };
+		B35F4357D6EE387B0DF3ED6EB32B8170 /* AGSMarkerSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMarkerSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMarkerSymbol.h; sourceTree = "<group>"; };
+		B37AF8C8B8EA8AD241E0FB8D06787972 /* AGSEditFieldsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEditFieldsInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEditFieldsInfo.h; sourceTree = "<group>"; };
+		B428CDB77422A5EF5A9339E10EE099A7 /* AGSRestrictionAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRestrictionAttribute.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRestrictionAttribute.h; sourceTree = "<group>"; };
+		B563443AC239E097702079AF30F498E7 /* AGSMutablePartCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMutablePartCollection.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMutablePartCollection.h; sourceTree = "<group>"; };
+		B59BD742907779647307051B12BC1FB8 /* AGSOfflineMapSyncLayerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapSyncLayerResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapSyncLayerResult.h; sourceTree = "<group>"; };
+		B5A66272DB709EEC328E6A774CC6DAB8 /* AGSGenerateOfflineMapParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateOfflineMapParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateOfflineMapParameters.h; sourceTree = "<group>"; };
+		B5A83A3F7F350705457BFE448FB08A20 /* AGSSublayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSublayerSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSublayerSource.h; sourceTree = "<group>"; };
+		B5BF69C11DCE4D57D1A562D94A52DBDF /* AGSENCViewingGroupSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCViewingGroupSettings.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCViewingGroupSettings.h; sourceTree = "<group>"; };
+		B69EFF8080A7A34CF2EB6BE100E24E0F /* AGSCLLocationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCLLocationDataSource.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCLLocationDataSource.h; sourceTree = "<group>"; };
+		B6EB7AA0CC558E696401FE4C07D9B4CD /* AGSArcGISFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISFeature.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISFeature.h; sourceTree = "<group>"; };
+		B88929CE5213B17DDB91E6044926506A /* AGSPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopup.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopup.h; sourceTree = "<group>"; };
+		B94C986E41D2E2A7D749E1DAE2B84F19 /* AGSArcGISMapServiceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISMapServiceInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISMapServiceInfo.h; sourceTree = "<group>"; };
+		B9CF10682239BDB697E3F6FF90E676FA /* AGSSymbolStyleSearchParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSymbolStyleSearchParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSymbolStyleSearchParameters.h; sourceTree = "<group>"; };
+		B9FEB3430FC24FFAA79D8A3BE71C1772 /* AGSLayerTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLayerTimeInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLayerTimeInfo.h; sourceTree = "<group>"; };
+		BB4C61906B3CB421746742E690FEAB8D /* AGSSurface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSurface.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSurface.h; sourceTree = "<group>"; };
+		BC55BEFFAE163A823E788E52832DFBFA /* AGSCodedValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCodedValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCodedValue.h; sourceTree = "<group>"; };
+		BCA239DBA3E89C198C01122C9795662D /* AGSPointCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPointCollection.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPointCollection.h; sourceTree = "<group>"; };
+		BD0725B74599D5CACA7D9D576976BA39 /* AGSPopupRelatedFeaturesSortOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupRelatedFeaturesSortOrder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupRelatedFeaturesSortOrder.h; sourceTree = "<group>"; };
+		BD77A0EC1DB8BA975040ED3C69DB0B3F /* AGSAnalysis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAnalysis.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAnalysis.h; sourceTree = "<group>"; };
+		BE041F78777CE9FE4FAECB9A51A071FB /* AGSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSColor.h; path = ArcGIS.framework/Versions/Current/Headers/AGSColor.h; sourceTree = "<group>"; };
+		BE26D1AF0B657A73CDAE16E17344B03C /* AGSFeatureCollectionLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureCollectionLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureCollectionLayer.h; sourceTree = "<group>"; };
+		BE2C9452966A7DD0BB063D9D50932EC0 /* AGSWMTSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMTSLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMTSLayer.h; sourceTree = "<group>"; };
+		BEA0A10940109AC789F1226DDE950B69 /* AGSSymbolStyleSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSymbolStyleSearchResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSymbolStyleSearchResult.h; sourceTree = "<group>"; };
+		BEAC0D765540B134E4EB39BCD71CCACC /* AGSDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDomain.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDomain.h; sourceTree = "<group>"; };
+		BEE139B090C5C7DE5CA3284890916C4F /* AGSPartCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPartCollection.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPartCollection.h; sourceTree = "<group>"; };
+		BFE035E024036C3F511B8D94C9320B10 /* AGSAreaUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAreaUnit.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAreaUnit.h; sourceTree = "<group>"; };
+		C0C143091B108C42DA8356E5832D2663 /* Pods-FlightVisualizerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlightVisualizerSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C0C6B57B179AE43C31913AA5C0DB2218 /* AGSArcGISMapServiceSublayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISMapServiceSublayerInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISMapServiceSublayerInfo.h; sourceTree = "<group>"; };
+		C13B4638554A7351267A0A99ED7FC30F /* AGSColormapRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSColormapRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSColormapRenderer.h; sourceTree = "<group>"; };
+		C269A65B5F2189C0AE26CDFF2A551E4A /* AGSPortalQueryParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalQueryParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalQueryParameters.h; sourceTree = "<group>"; };
+		C3C4E36D945997E5FC11A031212E5777 /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ArcGIS.framework; sourceTree = "<group>"; };
+		C3FFC801E049AA6D3407C833700C1C4F /* AGSGenerateLayerOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateLayerOption.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateLayerOption.h; sourceTree = "<group>"; };
+		C471B36B7A35422F60967BA6EAC5BDB6 /* AGSMultipart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultipart.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultipart.h; sourceTree = "<group>"; };
+		C4E93F78B067F854FF2C3E0E217DFE6E /* AGSStatisticRecordEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStatisticRecordEnumerator.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStatisticRecordEnumerator.h; sourceTree = "<group>"; };
+		C50DF857C69A651C8C547FF155D3196D /* AGSObservableOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSObservableOperation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSObservableOperation.h; sourceTree = "<group>"; };
+		C55B21C46FDEC4ADEC565DD98509F82D /* AGSRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRequestOperation.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRequestOperation.h; sourceTree = "<group>"; };
+		C5A2240EE014BF1B20FC70B325695E44 /* AGSGeoprocessingFeatureSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingFeatureSet.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingFeatureSet.h; sourceTree = "<group>"; };
+		C5A3C725228F71280198EBB21B2962D7 /* AGSEstimateTileCacheSizeJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEstimateTileCacheSizeJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEstimateTileCacheSizeJob.h; sourceTree = "<group>"; };
+		C61CB8323939B2C30D0CB37A58176875 /* AGSModelSceneSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSModelSceneSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSModelSceneSymbol.h; sourceTree = "<group>"; };
+		C70C2B58816D7C294C1DF9F6E23B3C17 /* AGSRendererSceneProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRendererSceneProperties.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRendererSceneProperties.h; sourceTree = "<group>"; };
+		C7108E2D49CECE6CA1819DDA944E07BE /* AGSDirectionManeuver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDirectionManeuver.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDirectionManeuver.h; sourceTree = "<group>"; };
+		C9ACC4E27ABDA75F5172F4D0882DD152 /* AGSWMSFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMSFeature.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMSFeature.h; sourceTree = "<group>"; };
+		CB0364AEC7DB6CBDCD394AD4E7E346AA /* ArcGIS-Runtime-SDK-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ArcGIS-Runtime-SDK-macOS.xcconfig"; sourceTree = "<group>"; };
+		CBF7A3561A63D7C2AC57DDC6A57E0756 /* AGSGraphic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGraphic.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGraphic.h; sourceTree = "<group>"; };
+		CC904EDD42E24582FF840520E97DF756 /* AGSCompositeSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCompositeSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCompositeSymbol.h; sourceTree = "<group>"; };
+		CCCCE976419D6DD2FB330BE90D1140FD /* AGSGeoprocessingLong.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingLong.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingLong.h; sourceTree = "<group>"; };
+		CCFF02ACA94E1C2EB9E3A1BFE5A4014D /* AGSServiceTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceTimeInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceTimeInfo.h; sourceTree = "<group>"; };
+		CDF8BD30FDE28D386187495300C3BFC5 /* AGSPopupRelatedFeaturesDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupRelatedFeaturesDefinition.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupRelatedFeaturesDefinition.h; sourceTree = "<group>"; };
+		CDFADCE47AF91754455BF370F24331A0 /* AGSViewLabelProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSViewLabelProperties.h; path = ArcGIS.framework/Versions/Current/Headers/AGSViewLabelProperties.h; sourceTree = "<group>"; };
+		CDFCAC32B034AC1EB892D2E1015C31FF /* AGSTravelMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTravelMode.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTravelMode.h; sourceTree = "<group>"; };
+		CE7DF4FF0C04CA6D676DBE0D66C8E356 /* AGSLayerViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLayerViewState.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLayerViewState.h; sourceTree = "<group>"; };
+		CEF530AD5077F3C4ECCE78A4D5CD56AB /* AGSKMLPhotoOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLPhotoOverlay.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLPhotoOverlay.h; sourceTree = "<group>"; };
+		CF09D92F9D8AA75F55701E84E20ACC48 /* AGSKMLLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLLayer.h; sourceTree = "<group>"; };
+		CFC01AA3B16B4704171D862F3C43E2AA /* AGSGeoprocessingLinearUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingLinearUnit.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingLinearUnit.h; sourceTree = "<group>"; };
+		D000A4CA8D721E857B76AA5256985980 /* AGSMapServiceLayerIDInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMapServiceLayerIDInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMapServiceLayerIDInfo.h; sourceTree = "<group>"; };
+		D0C383915F18C11E3BB393534BD9DCFB /* Pods_FlightVisualizerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightVisualizerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D788883796CC8AEEC120415756A872 /* AGSBingMapsLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSBingMapsLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSBingMapsLayer.h; sourceTree = "<group>"; };
+		D2172C53D3E384AB3032B5A4F3A1C3C1 /* AGSTimeAware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTimeAware.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTimeAware.h; sourceTree = "<group>"; };
+		D2D1879A94F15E0DC74918CE17B3436D /* AGSLocatorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLocatorInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLocatorInfo.h; sourceTree = "<group>"; };
+		D3521428EAD68A2574B446BA4E6F1909 /* AGSSimpleFillSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSimpleFillSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSimpleFillSymbol.h; sourceTree = "<group>"; };
+		D3C65190217F462BC4BC4F8AF58413EE /* AGSKMLTour.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLTour.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLTour.h; sourceTree = "<group>"; };
+		D439AFEE0BD6D05A556369E707848197 /* AGSGeodatabaseSyncTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodatabaseSyncTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodatabaseSyncTask.h; sourceTree = "<group>"; };
+		D4F26832A8AE0F1BB2CFE86E0A10E494 /* AGSServiceAreaResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaResult.h; sourceTree = "<group>"; };
+		D51B1BD938801FE889CA9C15BA122C4B /* AGSPopupAttachmentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupAttachmentManager.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupAttachmentManager.h; sourceTree = "<group>"; };
+		D5B1BF3FE36D5826A71BBDD936C24B84 /* AGSGeoprocessingTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingTask.h; sourceTree = "<group>"; };
+		D6296E375E141D33F2FFCE765E9EE919 /* AGSClosestFacilityTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClosestFacilityTask.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClosestFacilityTask.h; sourceTree = "<group>"; };
+		D72B6BEDD4419E57FC1811296DDE6A6B /* AGSPopupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupManager.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupManager.h; sourceTree = "<group>"; };
+		D7386CF3A374ACB072FF5300B5ED8749 /* AGSCredentialCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCredentialCache.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCredentialCache.h; sourceTree = "<group>"; };
+		D79575AB34F07DEFC49E9E3814F9E326 /* AGSPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPoint.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPoint.h; sourceTree = "<group>"; };
+		D8D3CBDDB51CA239AAF1F5895632E17A /* AGSSuggestParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSuggestParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSuggestParameters.h; sourceTree = "<group>"; };
+		D9171922B0A553B3BBB4B86314143B9D /* AGSGenerateOfflineMapParameterOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGenerateOfflineMapParameterOverrides.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGenerateOfflineMapParameterOverrides.h; sourceTree = "<group>"; };
+		DA2341F6BA22D5EFADD7759BE1835595 /* AGSClassBreak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClassBreak.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClassBreak.h; sourceTree = "<group>"; };
+		DAFD055E1B8E778BFB5C7D9828AD22A9 /* Pods-FlightVisualizerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlightVisualizerSwift-umbrella.h"; sourceTree = "<group>"; };
+		DB6D6A314FD3720639373DC2980CFBAE /* AGSKMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSKMLNode.h; path = ArcGIS.framework/Versions/Current/Headers/AGSKMLNode.h; sourceTree = "<group>"; };
+		DB846E45505AE8E9B68BA5DFC3806382 /* AGSJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSJob.h; sourceTree = "<group>"; };
+		DBD0A7DE51017A7BD7A1C9B54CD6BC5B /* AGSRenderingRuleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRenderingRuleInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRenderingRuleInfo.h; sourceTree = "<group>"; };
+		DBD6F5E2A430436FC6920AC2F100F518 /* AGSOfflineMapCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineMapCapabilities.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineMapCapabilities.h; sourceTree = "<group>"; };
+		DCAB08717045D8F6286D1A830C886E6C /* AGSEditorTrackingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEditorTrackingInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEditorTrackingInfo.h; sourceTree = "<group>"; };
+		DE8DDF6B104995169EE0B5CA60FD6810 /* AGSTimeExtent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTimeExtent.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTimeExtent.h; sourceTree = "<group>"; };
+		DE900B3401917A58F76CA2BA2A414D82 /* AGSOfflineCapability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOfflineCapability.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOfflineCapability.h; sourceTree = "<group>"; };
+		DECE8A6CA32A0AEDDF95AD0EE9BE1F1A /* ArcGIS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArcGIS.h; path = ArcGIS.framework/Versions/Current/Headers/ArcGIS.h; sourceTree = "<group>"; };
+		DEDE4A6E675F9D19FA995E4073CF4F65 /* AGSUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUnit.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUnit.h; sourceTree = "<group>"; };
+		DFE1590CAEE0CA5BB48C2ADE0EA4D21C /* AGSOpenStreetMapLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSOpenStreetMapLayer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSOpenStreetMapLayer.h; sourceTree = "<group>"; };
+		E001E32C330833A982D028932796AC1B /* AGSFeatureTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureTemplate.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureTemplate.h; sourceTree = "<group>"; };
+		E026FC52FE40F4D501DF9B07C2464B14 /* AGSGeodatabaseFeatureTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodatabaseFeatureTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodatabaseFeatureTable.h; sourceTree = "<group>"; };
+		E159C521227527EB7924F5E27918CF4C /* AGSObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSObject.h; path = ArcGIS.framework/Versions/Current/Headers/AGSObject.h; sourceTree = "<group>"; };
+		E1BBC960A547D7EC8856F3A58D986BF7 /* AGSField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSField.h; path = ArcGIS.framework/Versions/Current/Headers/AGSField.h; sourceTree = "<group>"; };
+		E29720EB1284EB9C7E338DBEED735161 /* AGSPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPart.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPart.h; sourceTree = "<group>"; };
+		E2AA542F65AF759D31390791540D5938 /* AGSMGRSGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMGRSGrid.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMGRSGrid.h; sourceTree = "<group>"; };
+		E3419B1EAFCFEB27A8BBB3FF90055454 /* AGSENCEnvironmentSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCEnvironmentSettings.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCEnvironmentSettings.h; sourceTree = "<group>"; };
+		E4274541E194C2C76D345FB6E0CDD3CB /* AGSSketchStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSketchStyle.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSketchStyle.h; sourceTree = "<group>"; };
+		E49B42BC017F3D70DEF59236F6A9B8E5 /* AGSRelationshipInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSRelationshipInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSRelationshipInfo.h; sourceTree = "<group>"; };
+		E530C4D8A4ABB461174A70ECFCB6E0BC /* AGSGeodesicSectorParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeodesicSectorParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeodesicSectorParameters.h; sourceTree = "<group>"; };
+		E55CFD08B3358A345FDA5117A4198580 /* AGSArcGISRuntimeEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSArcGISRuntimeEnvironment.h; path = ArcGIS.framework/Versions/Current/Headers/AGSArcGISRuntimeEnvironment.h; sourceTree = "<group>"; };
+		E5ED1357618ECCD3AB464EE7D0C0EFDC /* AGSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFont.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFont.h; sourceTree = "<group>"; };
+		E79EC4C6C1A6C8EA96FDD904842C4C4E /* AGSShapefileFeatureTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSShapefileFeatureTable.h; path = ArcGIS.framework/Versions/Current/Headers/AGSShapefileFeatureTable.h; sourceTree = "<group>"; };
+		E7EE8BDDBF579AEF24E29141B392563A /* AGSFeatureEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSFeatureEnumerator.h; path = ArcGIS.framework/Versions/Current/Headers/AGSFeatureEnumerator.h; sourceTree = "<group>"; };
+		E87D264CAEA866045E8DC0F11AE5D6CC /* AGSCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSCredential.h; path = ArcGIS.framework/Versions/Current/Headers/AGSCredential.h; sourceTree = "<group>"; };
+		E967A8A7B73A6F64A990664FA71082CE /* AGSGeoPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoPackage.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoPackage.h; sourceTree = "<group>"; };
+		E96E0AC81DD954522D3B3080F090EACB /* AGSMobileMapPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMobileMapPackage.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMobileMapPackage.h; sourceTree = "<group>"; };
+		E9F07C3B0A152C81F610FEAE9B217ECE /* AGSAuthenticationChallenge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSAuthenticationChallenge.h; path = ArcGIS.framework/Versions/Current/Headers/AGSAuthenticationChallenge.h; sourceTree = "<group>"; };
+		EA69104442CA583CA18CA5D2E2E13185 /* AGSView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSView.h; path = ArcGIS.framework/Versions/Current/Headers/AGSView.h; sourceTree = "<group>"; };
+		EB6D49779D46325D8B644926CA98CAC8 /* AGSENCDataset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCDataset.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCDataset.h; sourceTree = "<group>"; };
+		EBA1A931408417D7463E7C06D81A7CAA /* AGSPortalHelperServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalHelperServices.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalHelperServices.h; sourceTree = "<group>"; };
+		EBCB50BB819CE5BF752DABEC9E0FCBF8 /* AGSENCCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSENCCell.h; path = ArcGIS.framework/Versions/Current/Headers/AGSENCCell.h; sourceTree = "<group>"; };
+		EBE51705AD84E77C5E9D6EE46C201ED6 /* AGSGeographicTransformationStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeographicTransformationStep.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeographicTransformationStep.h; sourceTree = "<group>"; };
+		ED7528C814460F6FDE6EACD7D0539FCC /* AGSPopupsViewControllerTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPopupsViewControllerTheme.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPopupsViewControllerTheme.h; sourceTree = "<group>"; };
+		EFA31607FB16AFECDCFDEEAE32F0FDA2 /* AGSTileCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTileCache.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTileCache.h; sourceTree = "<group>"; };
+		EFB50AED1CE2F69C3AC200AA84F3CCFC /* AGSLicenseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLicenseResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLicenseResult.h; sourceTree = "<group>"; };
+		F0204119EE2152FACBAEFC34DA77D8B2 /* AGSUniqueValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSUniqueValue.h; path = ArcGIS.framework/Versions/Current/Headers/AGSUniqueValue.h; sourceTree = "<group>"; };
+		F03E59B6F7DA352668F66BB2CCB1E6B6 /* AGSStatisticsQueryParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStatisticsQueryParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStatisticsQueryParameters.h; sourceTree = "<group>"; };
+		F0A8F3C458924E69635178BBD5D30700 /* AGSBaseStretchRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSBaseStretchRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSBaseStretchRenderer.h; sourceTree = "<group>"; };
+		F16F436C14730C74002545779500B689 /* AGSEditResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEditResult.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEditResult.h; sourceTree = "<group>"; };
+		F1BFA39383B927F77FA1CFA1CA93DE33 /* AGSWMTSLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMTSLayerInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMTSLayerInfo.h; sourceTree = "<group>"; };
+		F21F127A37818E250339EAE96516304F /* AGSMultilayerSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultilayerSymbol.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultilayerSymbol.h; sourceTree = "<group>"; };
+		F2784E12529FE0B8C41D27D62A0C6F33 /* AGSTransformationCatalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSTransformationCatalog.h; path = ArcGIS.framework/Versions/Current/Headers/AGSTransformationCatalog.h; sourceTree = "<group>"; };
+		F2E0C4895CFCCE855F6E72E864DA445B /* AGSGeoprocessingRaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSGeoprocessingRaster.h; path = ArcGIS.framework/Versions/Current/Headers/AGSGeoprocessingRaster.h; sourceTree = "<group>"; };
+		F2EF95F9FC9717E10F40A44DD84AB4E7 /* AGSMultipointBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSMultipointBuilder.h; path = ArcGIS.framework/Versions/Current/Headers/AGSMultipointBuilder.h; sourceTree = "<group>"; };
+		F34DA9483DCB64800DB67C94F4A21FF6 /* AGSExportTileCacheJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSExportTileCacheJob.h; path = ArcGIS.framework/Versions/Current/Headers/AGSExportTileCacheJob.h; sourceTree = "<group>"; };
+		F358A943B544C61E5261B93C43064C99 /* AGSEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSEnumerator.h; path = ArcGIS.framework/Versions/Current/Headers/AGSEnumerator.h; sourceTree = "<group>"; };
+		F437449621F2E0095C1627646DC0AADA /* AGSWMTSServiceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSWMTSServiceInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSWMTSServiceInfo.h; sourceTree = "<group>"; };
+		F47060063CB2FCBB53694D75C0FEF496 /* AGSPortalItemComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSPortalItemComment.h; path = ArcGIS.framework/Versions/Current/Headers/AGSPortalItemComment.h; sourceTree = "<group>"; };
+		F486E4900F5510C2913A649D63574900 /* AGSSelectionProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSSelectionProperties.h; path = ArcGIS.framework/Versions/Current/Headers/AGSSelectionProperties.h; sourceTree = "<group>"; };
+		F5E311B7C61B0FAC746EA64D0CDF292D /* AGSShapefileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSShapefileInfo.h; path = ArcGIS.framework/Versions/Current/Headers/AGSShapefileInfo.h; sourceTree = "<group>"; };
+		F615BB950C5D4EA2DC4CD8C0CD073396 /* AGSViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSViewController.h; path = ArcGIS.framework/Versions/Current/Headers/AGSViewController.h; sourceTree = "<group>"; };
+		F677B84A1249200D753891873D4AE60E /* AGSLoadableBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLoadableBase.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLoadableBase.h; sourceTree = "<group>"; };
+		F82BB92B32EC409B0B2E8BCAA4070B80 /* AGSStop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSStop.h; path = ArcGIS.framework/Versions/Current/Headers/AGSStop.h; sourceTree = "<group>"; };
+		F8455CF509132E8A2030B7130E717991 /* AGSViewControllerBase_OSX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSViewControllerBase_OSX.h; path = ArcGIS.framework/Versions/Current/Headers/AGSViewControllerBase_OSX.h; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F9C01515808398D53BBD5B679FA79506 /* AGSInheritedDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSInheritedDomain.h; path = ArcGIS.framework/Versions/Current/Headers/AGSInheritedDomain.h; sourceTree = "<group>"; };
+		FA27014E3F741BF12DED89F46112B707 /* AGSClassBreaksRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSClassBreaksRenderer.h; path = ArcGIS.framework/Versions/Current/Headers/AGSClassBreaksRenderer.h; sourceTree = "<group>"; };
+		FB3E70C4D918A2ED4CD16A97B46EB562 /* AGSServiceAreaParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaParameters.h; sourceTree = "<group>"; };
+		FB40C2987FFFAFAA28EEBB52FFA9A4E5 /* AGSDownloadPreplannedOfflineMapParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSDownloadPreplannedOfflineMapParameters.h; path = ArcGIS.framework/Versions/Current/Headers/AGSDownloadPreplannedOfflineMapParameters.h; sourceTree = "<group>"; };
+		FB9152B370E286B370E984130892A422 /* AGSServiceAreaPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSServiceAreaPolyline.h; path = ArcGIS.framework/Versions/Current/Headers/AGSServiceAreaPolyline.h; sourceTree = "<group>"; };
+		FF59331939E9491279359695317E3FF3 /* AGSApplication+AGSNetworkActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGSApplication+AGSNetworkActivity.h"; path = "ArcGIS.framework/Versions/Current/Headers/AGSApplication+AGSNetworkActivity.h"; sourceTree = "<group>"; };
+		FFDCC100A042D945011D5F9B76B6C1F1 /* AGSLoadableRemoteResourceBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGSLoadableRemoteResourceBase.h; path = ArcGIS.framework/Versions/Current/Headers/AGSLoadableRemoteResourceBase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD9A67D3332552155D0C06AC2E5433C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1A91EE45B1EA2A3FCC161FAC43BFA2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4A369C3A3E11FDA018E7673A9C74CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C4E36D945997E5FC11A031212E5777 /* ArcGIS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		227A346CE3E9821BE5BBC7F39364F6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C383915F18C11E3BB393534BD9DCFB /* Pods_FlightVisualizerSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6EE7A50F92F7A432759F5945888127 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93A8B3925891AC4CC9B428D3E3AC6DB /* Pods-FlightVisualizerSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33F3812FFC8CEBBF13BD696FCD705585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4EC4F2DB39840A53ADF2CCE84DC239E /* ArcGIS-Runtime-SDK-macOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A826082E02F145CDD03C3FEC96184A1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0364AEC7DB6CBDCD394AD4E7E346AA /* ArcGIS-Runtime-SDK-macOS.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ArcGIS-Runtime-SDK-macOS";
+			sourceTree = "<group>";
+		};
+		A93A8B3925891AC4CC9B428D3E3AC6DB /* Pods-FlightVisualizerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9762E7F57B575C310926D5FC8C080373 /* Pods-FlightVisualizerSwift.modulemap */,
+				0CBE33F532157207CB58BFD51E7A76AA /* Pods-FlightVisualizerSwift-acknowledgements.markdown */,
+				08B82C916653C1B5D63C9E8503FF5C50 /* Pods-FlightVisualizerSwift-acknowledgements.plist */,
+				7D8D84D446CE14A9F2A093C681BBF245 /* Pods-FlightVisualizerSwift-dummy.m */,
+				4AB66710F160D24AF1BB5D9069F54D04 /* Pods-FlightVisualizerSwift-Info.plist */,
+				47860D3633D32AB5EBD9CCA323DF3D32 /* Pods-FlightVisualizerSwift-resources.sh */,
+				DAFD055E1B8E778BFB5C7D9828AD22A9 /* Pods-FlightVisualizerSwift-umbrella.h */,
+				B293E107F772517273684982CE2140AF /* Pods-FlightVisualizerSwift.debug.xcconfig */,
+				C0C143091B108C42DA8356E5832D2663 /* Pods-FlightVisualizerSwift.release.xcconfig */,
+			);
+			name = "Pods-FlightVisualizerSwift";
+			path = "Target Support Files/Pods-FlightVisualizerSwift";
+			sourceTree = "<group>";
+		};
+		B2CC2E3B4A59E3C77C72DEE65254CD3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A816533380AF680008AC6392EA823AB /* ArcGIS.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				33F3812FFC8CEBBF13BD696FCD705585 /* Pods */,
+				227A346CE3E9821BE5BBC7F39364F6C3 /* Products */,
+				2E6EE7A50F92F7A432759F5945888127 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EC4F2DB39840A53ADF2CCE84DC239E /* ArcGIS-Runtime-SDK-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F45D8FB002955BDA5360CDAEE6827C2 /* AGSAddRastersParameters.h */,
+				BD77A0EC1DB8BA975040ED3C69DB0B3F /* AGSAnalysis.h */,
+				640EC4E8695590204E2FA4E9A0BB77F8 /* AGSAnalysisOverlay.h */,
+				40E63BB13555153A04B90227BC5A923F /* AGSAngularUnit.h */,
+				FF59331939E9491279359695317E3FF3 /* AGSApplication+AGSNetworkActivity.h */,
+				B6EB7AA0CC558E696401FE4C07D9B4CD /* AGSArcGISFeature.h */,
+				6DA870CAF44AF1FED8703508FA89A5E9 /* AGSArcGISFeatureLayerInfo.h */,
+				63E4D585E82A0CAF059EC6C2E4FEF2F5 /* AGSArcGISFeatureServiceInfo.h */,
+				42376440152C324D3A94CCEAEF4042F6 /* AGSArcGISFeatureTable.h */,
+				6D80F4486C2C39B0C6BC10E6A45BAC3E /* AGSArcGISImageServiceInfo.h */,
+				6B43688FC19C8231829D7135868C2475 /* AGSArcGISMapImageLayer.h */,
+				0FE6E38B52BCEAD480416F0AD757FE0D /* AGSArcGISMapImageSublayer.h */,
+				1FA8A98377E68C74537539DA38BAA5A7 /* AGSArcGISMapServiceCapabilities.h */,
+				B94C986E41D2E2A7D749E1DAE2B84F19 /* AGSArcGISMapServiceInfo.h */,
+				C0C6B57B179AE43C31913AA5C0DB2218 /* AGSArcGISMapServiceSublayerInfo.h */,
+				E55CFD08B3358A345FDA5117A4198580 /* AGSArcGISRuntimeEnvironment.h */,
+				A1EED09E34225D7301DD8ABFFE74C459 /* AGSArcGISSceneLayer.h */,
+				2A14C63E205FC9F958BFEE6DBD4551F6 /* AGSArcGISSublayer.h */,
+				4BA1116819F0483E241E89032EDEE7F6 /* AGSArcGISTiledElevationSource.h */,
+				835F77A4C7387C8DDCB6DAD245CF7DB4 /* AGSArcGISTiledLayer.h */,
+				57517EB7DF007E5005B8F875827FD7EC /* AGSArcGISTiledSublayer.h */,
+				687402EEFB12BF0500B49854953A3ED6 /* AGSArcGISVectorTiledLayer.h */,
+				BFE035E024036C3F511B8D94C9320B10 /* AGSAreaUnit.h */,
+				6B3D23475572D4DFE47DA1D4EF0AA1C4 /* AGSAttachment.h */,
+				8EFA924058E36DE65BF0E5F60E4F426C /* AGSAttributeParameterValue.h */,
+				E9F07C3B0A152C81F610FEAE9B217ECE /* AGSAuthenticationChallenge.h */,
+				2DB9C08B1407574EA36D179674680A10 /* AGSAuthenticationManager.h */,
+				1D2D30573BA7223D1724CE5B6336205E /* AGSAuthenticationManagerDelegate.h */,
+				9C9BCC06B312BD143717C3D2B35FC035 /* AGSBackgroundGrid.h */,
+				8975E73196C9DBC3BE526A6F505B4C73 /* AGSBasemap.h */,
+				F0A8F3C458924E69635178BBD5D30700 /* AGSBaseStretchRenderer.h */,
+				D1D788883796CC8AEEC120415756A872 /* AGSBingMapsLayer.h */,
+				89305CD44F63EBD2A64B49D5C56D1F34 /* AGSBlendRenderer.h */,
+				3F3AE506CF4ACF2FCA28890AC6EAF901 /* AGSBookmark.h */,
+				470D1656F5CA122A4FAB87F8B0309E7F /* AGSCallout.h */,
+				82D6988C24FE7370BC31BB67834E8ECF /* AGSCamera.h */,
+				2BC6687AD30F750B9B5932F90D63C484 /* AGSCameraController.h */,
+				9593A9A463CAEB5F0729FBE77DC83493 /* AGSCancelable.h */,
+				DA2341F6BA22D5EFADD7759BE1835595 /* AGSClassBreak.h */,
+				FA27014E3F741BF12DED89F46112B707 /* AGSClassBreaksRenderer.h */,
+				B69EFF8080A7A34CF2EB6BE100E24E0F /* AGSCLLocationDataSource.h */,
+				57020F139E4AD99CC9CE49D6D275F6A7 /* AGSClosestFacilityParameters.h */,
+				3161061F476698F28ABA721AF3D56A09 /* AGSClosestFacilityResult.h */,
+				A360CEB74D88474D6F01F61A0D0F0B02 /* AGSClosestFacilityRoute.h */,
+				D6296E375E141D33F2FFCE765E9EE919 /* AGSClosestFacilityTask.h */,
+				8AB8819D3EBC96B4C13D15A47DFF3D46 /* AGSClosestFacilityTaskInfo.h */,
+				BC55BEFFAE163A823E788E52832DFBFA /* AGSCodedValue.h */,
+				05FE9F6836822CC341CA4A56AE306CA6 /* AGSCodedValueDomain.h */,
+				BE041F78777CE9FE4FAECB9A51A071FB /* AGSColor.h */,
+				2692F63A3BA9DBE7BA5808455F1B4FC8 /* AGSColormap.h */,
+				C13B4638554A7351267A0A99ED7FC30F /* AGSColormapRenderer.h */,
+				3A0331196CA57AC0D5DDF2A300DCC609 /* AGSColorRamp.h */,
+				CC904EDD42E24582FF840520E97DF756 /* AGSCompositeSymbol.h */,
+				8C846E3C8513F3F51952E0F1977BA493 /* AGSCoordinateFormatter.h */,
+				B20120D51F1DB4D8C860D8A1C0AFAA59 /* AGSCostAttribute.h */,
+				E87D264CAEA866045E8DC0F11AE5D6CC /* AGSCredential.h */,
+				D7386CF3A374ACB072FF5300B5ED8749 /* AGSCredentialCache.h */,
+				1981F6C05EE6D374F7FE7CD757A706BC /* AGSDatumTransformation.h */,
+				6E2CD560389159F726F3AC57D27C025C /* AGSDefines.h */,
+				43D08755268C686AA5C495A7A6ABE6F2 /* AGSDictionaryRenderer.h */,
+				6A96C5B013A936BA9A4E84D30EFA5B47 /* AGSDictionarySymbolStyle.h */,
+				52A119FD0EC1187DAC91DA26DF21402F /* AGSDirectionEvent.h */,
+				C7108E2D49CECE6CA1819DDA944E07BE /* AGSDirectionManeuver.h */,
+				11D61AA0B7A2B9C6829CE032E69B4CF4 /* AGSDirectionMessage.h */,
+				18D20FC37FE0238779694BB7C8B48D4E /* AGSDistance.h */,
+				460AF3D3A2C0AC539DB616DCC6E1EC31 /* AGSDistanceCompositeSceneSymbol.h */,
+				A97CAFAD4CC99202419A52ED8A5A9883 /* AGSDistanceSymbolRange.h */,
+				BEAC0D765540B134E4EB39BCD71CCACC /* AGSDomain.h */,
+				3BC16278AA583E18E58355AE5C9D8D5E /* AGSDownloadPreplannedOfflineMapJob.h */,
+				FB40C2987FFFAFAA28EEBB52FFA9A4E5 /* AGSDownloadPreplannedOfflineMapParameters.h */,
+				89AA8B23B493F6EAE8AEFCE14F8BBC63 /* AGSDownloadPreplannedOfflineMapResult.h */,
+				39ECBE388EEB2ED88AEAA8E765BADFA4 /* AGSDrawingInfo.h */,
+				B37AF8C8B8EA8AD241E0FB8D06787972 /* AGSEditFieldsInfo.h */,
+				DCAB08717045D8F6286D1A830C886E6C /* AGSEditorTrackingInfo.h */,
+				F16F436C14730C74002545779500B689 /* AGSEditResult.h */,
+				B2CE0979D79DC19415CE6310AFD984E5 /* AGSElevationSource.h */,
+				EBCB50BB819CE5BF752DABEC9E0FCBF8 /* AGSENCCell.h */,
+				EB6D49779D46325D8B644926CA98CAC8 /* AGSENCDataset.h */,
+				6CD85A53C829EB818712B554AB2E0879 /* AGSENCDisplayCategories.h */,
+				8679BCDD3690D467CBEBA84D10E6D97D /* AGSENCDisplaySettings.h */,
+				E3419B1EAFCFEB27A8BBB3FF90055454 /* AGSENCEnvironmentSettings.h */,
+				86277514C5E799D569C2B0088C412CD4 /* AGSENCExchangeSet.h */,
+				0529B4898D7949A2EC17AF1205C6ABF5 /* AGSENCFeature.h */,
+				09E1CFC1E1D9C6130B4C643551F5C69F /* AGSENCLayer.h */,
+				A9D7A45C8B840783DA1AE5671DA02B4E /* AGSENCMarinerSettings.h */,
+				A9EC1295D8E71275C421CF4BC2724CF8 /* AGSENCTextGroupVisibilitySettings.h */,
+				B5BF69C11DCE4D57D1A562D94A52DBDF /* AGSENCViewingGroupSettings.h */,
+				88CFFBD49ED456AEF1FDE8275E641042 /* AGSEnumerations.h */,
+				F358A943B544C61E5261B93C43064C99 /* AGSEnumerator.h */,
+				461FB7CF5E6B359F618594D836F3648D /* AGSEnvelope.h */,
+				71AD283ADBEB502C3F3B23A792ACBE1B /* AGSEnvelopeBuilder.h */,
+				C5A3C725228F71280198EBB21B2962D7 /* AGSEstimateTileCacheSizeJob.h */,
+				9BCDB1FBB71FDC07C218D955A5F45E20 /* AGSEstimateTileCacheSizeResult.h */,
+				F34DA9483DCB64800DB67C94F4A21FF6 /* AGSExportTileCacheJob.h */,
+				5C6AE9F1AD979E71BE3EE6287B8AD573 /* AGSExportTileCacheParameters.h */,
+				923815A435B205B4F7BC7BDB285E53BA /* AGSExportTileCacheTask.h */,
+				3DA3CA6B0168191C5BD4E46B7EA0FEA1 /* AGSExportVectorTilesJob.h */,
+				0016C5C19ACA701327D7EA97F6687339 /* AGSExportVectorTilesParameters.h */,
+				054AF8CE47AFC936C1121044297934C7 /* AGSExportVectorTilesResult.h */,
+				9BEBC5499FA11E28FCC481B12D1A2B0A /* AGSExportVectorTilesTask.h */,
+				08847B1BA3F86487DD07561CFBB682CE /* AGSExtensionLicense.h */,
+				0190E95C66C3D54B577C386A1EFF64D2 /* AGSFacility.h */,
+				358914E0B9C9C98A99CDB385189B794E /* AGSFeature.h */,
+				A5B40315EE08248772F278CC38390EAA /* AGSFeatureCollection.h */,
+				BE26D1AF0B657A73CDAE16E17344B03C /* AGSFeatureCollectionLayer.h */,
+				588E1D7534D82AC1FCC4F9742028AAB5 /* AGSFeatureCollectionTable.h */,
+				62D17E1685C0EDCD25ACB5CD1650728A /* AGSFeatureEditResult.h */,
+				E7EE8BDDBF579AEF24E29141B392563A /* AGSFeatureEnumerator.h */,
+				6A5518C400AFD5658E0D0EDE46A6DCB1 /* AGSFeatureLayer.h */,
+				70936FDEC59114F885174762D252B228 /* AGSFeatureQueryResult.h */,
+				8BD1B565A2050B9D48BD9B930933A628 /* AGSFeatureServiceCapabilities.h */,
+				95273D98E45F0CC9809B2CDE29F0EE07 /* AGSFeatureSet.h */,
+				462074C88EE09D35745C7CB1D87D708F /* AGSFeatureSubtype.h */,
+				954ADAEE2467496ABC9079001550BF77 /* AGSFeatureTable.h */,
+				E001E32C330833A982D028932796AC1B /* AGSFeatureTemplate.h */,
+				86D82E73AF68B9482D208ED5924A36EE /* AGSFeatureType.h */,
+				E1BBC960A547D7EC8856F3A58D986BF7 /* AGSField.h */,
+				99F69313060CD7CE1AE4CB3A3EF1CDD0 /* AGSFillSymbol.h */,
+				E5ED1357618ECCD3AB464EE7D0C0EFDC /* AGSFont.h */,
+				0BAA370FF7359C6864B7FEC593C90D19 /* AGSFrameCameraAddRastersParameters.h */,
+				3A111146D913F5C79A8DB94076D4449C /* AGSGenerateGeodatabaseJob.h */,
+				1C376EA20AF0DD7D902D003F2FFCEACF /* AGSGenerateGeodatabaseParameters.h */,
+				C3FFC801E049AA6D3407C833700C1C4F /* AGSGenerateLayerOption.h */,
+				0B9B186A16EE69F00BDE7604B3350DED /* AGSGenerateOfflineMapJob.h */,
+				D9171922B0A553B3BBB4B86314143B9D /* AGSGenerateOfflineMapParameterOverrides.h */,
+				B5A66272DB709EEC328E6A774CC6DAB8 /* AGSGenerateOfflineMapParameters.h */,
+				891C27CE5FEBB4890EE283B55C596D42 /* AGSGenerateOfflineMapResult.h */,
+				5C694B340168C9205CD01A916ECDC307 /* AGSGeocodeParameters.h */,
+				83254D25CFDC403203A88FAC6CF262CD /* AGSGeocodeResult.h */,
+				03B9A1B47D1EC78D950BC1053347ED74 /* AGSGeodatabase.h */,
+				7FF705B020E20409296FAF4DDEC6CAF3 /* AGSGeodatabaseDataset.h */,
+				E026FC52FE40F4D501DF9B07C2464B14 /* AGSGeodatabaseFeatureTable.h */,
+				D439AFEE0BD6D05A556369E707848197 /* AGSGeodatabaseSyncTask.h */,
+				2AFFDA01AB127A2B8E237BE9FB1C27E2 /* AGSGeodesicEllipseParameters.h */,
+				E530C4D8A4ABB461174A70ECFCB6E0BC /* AGSGeodesicSectorParameters.h */,
+				20C2D82F9165C73C6FFEF94AA232CD58 /* AGSGeodeticDistanceResult.h */,
+				9E78E6038BE0A4E1A99A75100CBCDFC3 /* AGSGeoElement.h */,
+				565E97C4012C71A32E9B8E99DBE0360B /* AGSGeoElementLineOfSight.h */,
+				900CAC5AB19C72A1D62B1DCAC5154D36 /* AGSGeoElementViewshed.h */,
+				4B9241CC81C3181F359E73885BD0C6A9 /* AGSGeographicTransformation.h */,
+				EBE51705AD84E77C5E9D6EE46C201ED6 /* AGSGeographicTransformationStep.h */,
+				1028D2561401F41A3F8DBDA507BDA32C /* AGSGeometry.h */,
+				2F4FEF507BD51C61C00E6AE12177F643 /* AGSGeometryBuilder.h */,
+				0A7F2C4497296D2C201A8D0B022AB915 /* AGSGeometryEngine.h */,
+				E967A8A7B73A6F64A990664FA71082CE /* AGSGeoPackage.h */,
+				773ED74F4EA7359D1DA130CA93DB9723 /* AGSGeoPackageFeatureTable.h */,
+				3BAB7C80C84C2264B457C1E6A13B4929 /* AGSGeoPackageRaster.h */,
+				2ACF587C5B464FC3D24696277BBB6125 /* AGSGeoprocessingBoolean.h */,
+				6C0146368A71ECB69D374BEE4EF33108 /* AGSGeoprocessingDataFile.h */,
+				90375905FB0C0C528AA4A9E177C4BF36 /* AGSGeoprocessingDate.h */,
+				288C18685CD5AF12E5DF9363B8BDCD5D /* AGSGeoprocessingDouble.h */,
+				40881D147D7159EDC6636085EF03212A /* AGSGeoprocessingFeatures.h */,
+				C5A2240EE014BF1B20FC70B325695E44 /* AGSGeoprocessingFeatureSet.h */,
+				167E931B95FE37D3702BED8F758FA845 /* AGSGeoprocessingJob.h */,
+				CFC01AA3B16B4704171D862F3C43E2AA /* AGSGeoprocessingLinearUnit.h */,
+				CCCCE976419D6DD2FB330BE90D1140FD /* AGSGeoprocessingLong.h */,
+				2CB5CDEA2028B5FFA458788EBE803521 /* AGSGeoprocessingMultiValue.h */,
+				7E1C0BC0640B80457DCF162DA4F42EAA /* AGSGeoprocessingParameter.h */,
+				B3282CCEC7583ED70628DC25F44C77CA /* AGSGeoprocessingParameterInfo.h */,
+				6C313A97293199DE1EF4396F450419C8 /* AGSGeoprocessingParameters.h */,
+				F2E0C4895CFCCE855F6E72E864DA445B /* AGSGeoprocessingRaster.h */,
+				497FABE6466FE22AB8D1D0371D4C8C0F /* AGSGeoprocessingResult.h */,
+				581D66583120216CBCFD28D98DCC337D /* AGSGeoprocessingString.h */,
+				D5B1BF3FE36D5826A71BBDD936C24B84 /* AGSGeoprocessingTask.h */,
+				A326DBEF1F588F9DDABA4AD06387FE62 /* AGSGeoprocessingTaskInfo.h */,
+				0B8BE5939F042D6A07CF18B92FF6F44C /* AGSGeoprocessingUnknownParameter.h */,
+				68E52B7D72B6FE55413FF1634670B337 /* AGSGeoView.h */,
+				4BD3B31F4CAE715554FC9D6ABA9FC3CB /* AGSGlobeCameraController.h */,
+				98EA04FB685813CAAF4167AF235F5649 /* AGSGPXLocationDataSource.h */,
+				CBF7A3561A63D7C2AC57DDC6A57E0756 /* AGSGraphic.h */,
+				68AECB2EBF68EDF6AA2A19B4838E7B33 /* AGSGraphicsOverlay.h */,
+				4B12B180F89C57485CFD01CFA44D7BC6 /* AGSGrid.h */,
+				5F2E76281EE59F0608035DB581D5F5E1 /* AGSHeatmapRenderer.h */,
+				5A597FF1598443F754B6DD8BC0BF5685 /* AGSHillshadeRenderer.h */,
+				780164E2C554094E02059BD62983D59F /* AGSHistogramEqualizationStretchParameters.h */,
+				B1A8D4600A64BA4FD8BAA94207344767 /* AGSIdentifyGraphicsOverlayResult.h */,
+				0C356839B41DB27737D230403E26C5D0 /* AGSIdentifyLayerResult.h */,
+				91936576882A784262E987597BFDF363 /* AGSIDInfo.h */,
+				25CE0C73EFFEA5F50E06D7F6ECAEFB2B /* AGSImage.h */,
+				66F8899DE9DFD09CC3DAE5BD7E0313ED /* AGSImageAdjustmentLayer.h */,
+				438EED22114CFBFE78CFB7BB1C29969C /* AGSImageServiceRaster.h */,
+				6FEAC6CEF457E2D6EC2C5C16BDC45B69 /* AGSImageTiledLayer.h */,
+				9A37B2584F4E826E6111E60D56446198 /* AGSIncident.h */,
+				F9C01515808398D53BBD5B679FA79506 /* AGSInheritedDomain.h */,
+				0AC6A3AD6792FF885C72373CD047BB47 /* AGSItem.h */,
+				9834648FF01B2F0BED218353451377B9 /* AGSItemResourceCache.h */,
+				DB846E45505AE8E9B68BA5DFC3806382 /* AGSJob.h */,
+				88C93EEDD8E40EC278D93E4935CBB525 /* AGSJobMessage.h */,
+				0BC85671EC55BC146939A08FA61861D2 /* AGSJSONRequestOperation.h */,
+				5629A381321B0A009581B8393DCA30AA /* AGSJSONSerializable.h */,
+				1BFAD7C4A9244561094B8C367ED61501 /* AGSJSONSerializableBase.h */,
+				A4F12E9FC2FB5DEB5974A54180D7CCA7 /* AGSKeychainItem.h */,
+				392F8998188B1D2967690DC5246B0153 /* AGSKMLContainer.h */,
+				A0686E01249362B2DF127EA6481044CA /* AGSKMLDataset.h */,
+				AE413B5B83EBDF125652F30A811D2C56 /* AGSKMLDocument.h */,
+				229492BBFBCB59F7A589A6475C5EB511 /* AGSKMLFolder.h */,
+				0AC5E92E91E203557F4BEA1ADBEA10B8 /* AGSKMLGeometry.h */,
+				058DFFE6215123D740A0A8DCD98B62AE /* AGSKMLGroundOverlay.h */,
+				CF09D92F9D8AA75F55701E84E20ACC48 /* AGSKMLLayer.h */,
+				0B11AE1D09F0F3B986B1C90A69D435C4 /* AGSKMLNetworkLink.h */,
+				DB6D6A314FD3720639373DC2980CFBAE /* AGSKMLNode.h */,
+				CEF530AD5077F3C4ECCE78A4D5CD56AB /* AGSKMLPhotoOverlay.h */,
+				315DC82DA36B7E8E536D684CBEFED78B /* AGSKMLPlacemark.h */,
+				8C96B01487D5B4A8A62094E1AC24869B /* AGSKMLScreenOverlay.h */,
+				D3C65190217F462BC4BC4F8AF58413EE /* AGSKMLTour.h */,
+				6B1B2F402954F91096FC29EDC268E86D /* AGSKMLViewpoint.h */,
+				4EF60B2D51E1DDACE990ADED8E35B826 /* AGSLabelDefinition.h */,
+				49E0E5900CFF7C25B917D351D8605BEA /* AGSLabelingInfo.h */,
+				27346EEC1282CEA133D93C98EB65A84B /* AGSLatitudeLongitudeGrid.h */,
+				2DA31C54861227D494BA53546F971395 /* AGSLayer.h */,
+				6586152B9E450C9363693337E78B57C6 /* AGSLayerContent.h */,
+				2362FEA7BB70E59B5525432B17B7D836 /* AGSLayerSceneProperties.h */,
+				B9FEB3430FC24FFAA79D8A3BE71C1772 /* AGSLayerTimeInfo.h */,
+				CE7DF4FF0C04CA6D676DBE0D66C8E356 /* AGSLayerViewState.h */,
+				3189F9ADC5A3C8D9ABA4301756C67A4B /* AGSLegendInfo.h */,
+				9DDC72A1018F6139635E1BF7260BBD21 /* AGSLevelOfDetail.h */,
+				66469920DB480A62056ACDD20BBB70D4 /* AGSLicense.h */,
+				2B37A27A9913CA2C43598127433B55C9 /* AGSLicenseInfo.h */,
+				EFB50AED1CE2F69C3AC200AA84F3CCFC /* AGSLicenseResult.h */,
+				640A29DEF4167D460A2882C1525EDCAA /* AGSLinearUnit.h */,
+				8D1F0A439CF17D3E94C834D687C5E701 /* AGSLineOfSight.h */,
+				A88F588737989A5BA031BA03C07F84BF /* AGSLineSegment.h */,
+				99364260FA1FB4F3871B8CAA76EBFFD9 /* AGSLineSymbol.h */,
+				11522777BFE827BADFA7FDEBE54AC5F8 /* AGSLoadable.h */,
+				F677B84A1249200D753891873D4AE60E /* AGSLoadableBase.h */,
+				8F47B3F4DC67ED4DE28786BCBC51AF57 /* AGSLoadableImage.h */,
+				FFDCC100A042D945011D5F9B76B6C1F1 /* AGSLoadableRemoteResourceBase.h */,
+				30A1C4F4D2C40D22C7247DF9C7E913B5 /* AGSLoadableValue.h */,
+				54FAFD53A47F6B27BEF21A774C1B3B60 /* AGSLoadSettings.h */,
+				7EEBCE1F970E478B89788F74B27B48AA /* AGSLocalItem.h */,
+				717D938CE82A8DBB5C29E620928C2F28 /* AGSLocation.h */,
+				6F97BE10B7D8A1E7F0A0459E66830D14 /* AGSLocationDataSource.h */,
+				1A3B295DAF532A4AF0C31A17A17D7173 /* AGSLocationDisplay.h */,
+				599AEA6271B7A1C48BB801123A77DBCE /* AGSLocationDistanceMeasurement.h */,
+				A1568FF231B91531BFEB29B62EC9A380 /* AGSLocationLineOfSight.h */,
+				9B859DE210E028EFE16F02D6D2869B9B /* AGSLocationToScreenResult.h */,
+				06C58EA5938DF5C8D4B9119CCDB55C48 /* AGSLocationViewshed.h */,
+				0D28129302B844570423FB44945A3C53 /* AGSLocatorAttribute.h */,
+				D2D1879A94F15E0DC74918CE17B3436D /* AGSLocatorInfo.h */,
+				0615CB368C1BE2FB7A2C570AE64713E4 /* AGSLocatorTask.h */,
+				6BC4FF74210EBEDBBE55C8FC37C88D83 /* AGSMap.h */,
+				D000A4CA8D721E857B76AA5256985980 /* AGSMapServiceLayerIDInfo.h */,
+				2B7EA5867466A048D074C88A4D3C16F4 /* AGSMapSublayerSource.h */,
+				8D66C7BDF4494F3A2281C10D7E4310E3 /* AGSMapView.h */,
+				982C882BCBCE2998F3EABE504B1D707E /* AGSMapViewCommon.h */,
+				4DBF08476989D5EE893733371ADB4A6A /* AGSMapViewInteractionOptions.h */,
+				5FB954F91905126BCFF8E59594184B72 /* AGSMarkerSceneSymbol.h */,
+				B35F4357D6EE387B0DF3ED6EB32B8170 /* AGSMarkerSymbol.h */,
+				E2AA542F65AF759D31390791540D5938 /* AGSMGRSGrid.h */,
+				62F93A380800EAB25F181DBFEFDEDCC5 /* AGSMinMaxStretchParameters.h */,
+				74ED917D3025EF7F4A700E26797788C8 /* AGSMobileBasemapLayer.h */,
+				E96E0AC81DD954522D3B3080F090EACB /* AGSMobileMapPackage.h */,
+				C61CB8323939B2C30D0CB37A58176875 /* AGSModelSceneSymbol.h */,
+				442E3BA6369222AFCE86CE59FB8CA0F7 /* AGSMosaicDatasetRaster.h */,
+				53ED1A78D82EA05FAA3A6B291C16CB89 /* AGSMultilayerPointSymbol.h */,
+				8250D7F7310DF815E3A469142644F6BE /* AGSMultilayerPolygonSymbol.h */,
+				72067FFCDD3AAEA2C3E5E422A9AA3F40 /* AGSMultilayerPolylineSymbol.h */,
+				F21F127A37818E250339EAE96516304F /* AGSMultilayerSymbol.h */,
+				C471B36B7A35422F60967BA6EAC5BDB6 /* AGSMultipart.h */,
+				7504D52D322C168A49E1406847577C93 /* AGSMultipartBuilder.h */,
+				20010EA523F1B90A0E138998B5CC7BDE /* AGSMultipoint.h */,
+				F2EF95F9FC9717E10F40A44DD84AB4E7 /* AGSMultipointBuilder.h */,
+				99061F5A051D3EFA4F705DCF61DE3267 /* AGSMutablePart.h */,
+				B563443AC239E097702079AF30F498E7 /* AGSMutablePartCollection.h */,
+				673B794A53AA0A02BC9035FB3B859565 /* AGSMutablePointCollection.h */,
+				160A9C045D692CF87DE232FDA9D427CE /* AGSNetworkLocation.h */,
+				9A31664FE98423DEBF0D4347B0351046 /* AGSOAuthConfiguration.h */,
+				E159C521227527EB7924F5E27918CF4C /* AGSObject.h */,
+				C50DF857C69A651C8C547FF155D3196D /* AGSObservableOperation.h */,
+				DE900B3401917A58F76CA2BA2A414D82 /* AGSOfflineCapability.h */,
+				DBD6F5E2A430436FC6920AC2F100F518 /* AGSOfflineMapCapabilities.h */,
+				8552D2C428B3ED27B5DA05083140DD5A /* AGSOfflineMapItemInfo.h */,
+				A84B8A5ED384DD16B3B407CC3AA927B5 /* AGSOfflineMapParametersKey.h */,
+				94812A18DE6B6B6478C443DFD9946F5A /* AGSOfflineMapSyncJob.h */,
+				B59BD742907779647307051B12BC1FB8 /* AGSOfflineMapSyncLayerResult.h */,
+				9B9E3FC3D94B77E1B942C251C6078125 /* AGSOfflineMapSyncParameters.h */,
+				2DEAFD26CFD79F4EA9C2E730AB48BFCD /* AGSOfflineMapSyncResult.h */,
+				21708B929DFA384255E785E3AB1BB96D /* AGSOfflineMapSyncTask.h */,
+				5C1A1BDFF71D36EAA82ECA07741BCAEF /* AGSOfflineMapTask.h */,
+				8EE99333BECA746B1BAAA897096A9CF7 /* AGSOpenGLView.h */,
+				ACCF31882CD9733504746F9A0200DC7F /* AGSOpenGLView_OSX.h */,
+				DFE1590CAEE0CA5BB48C2ADE0EA4D21C /* AGSOpenStreetMapLayer.h */,
+				53ACCB603FF7BF8517493C79B566EE10 /* AGSOperation.h */,
+				5F6871B18643A269E8421692B3CE7ACE /* AGSOperationQueue.h */,
+				9F123CACE12DD6D7E7B2206B6DDDFBE0 /* AGSOrbitGeoElementCameraController.h */,
+				85A491633DB81FED6DBDB65D49ED01E1 /* AGSOrbitLocationCameraController.h */,
+				946E1F0861329834A37C22AC4320668F /* AGSOrderBy.h */,
+				A8F2F181E3C2B05D8DEE714A5DF75F46 /* AGSOwnershipBasedAccessControlInfo.h */,
+				E29720EB1284EB9C7E338DBEED735161 /* AGSPart.h */,
+				BEE139B090C5C7DE5CA3284890916C4F /* AGSPartCollection.h */,
+				A4CF2BD35AA96AD7339B1191E6214CCC /* AGSPercentClipStretchParameters.h */,
+				82558E38363CAD7C7DE98CCA3CA04A23 /* AGSPictureFillSymbol.h */,
+				403C94B45E888F915D2F3CC9D2C7834E /* AGSPictureMarkerSymbol.h */,
+				D79575AB34F07DEFC49E9E3814F9E326 /* AGSPoint.h */,
+				7088E9419496EBF9D757926679A12C24 /* AGSPointBarrier.h */,
+				453D5A7D28CF9040D73A7C15CDB5A391 /* AGSPointBuilder.h */,
+				BCA239DBA3E89C198C01122C9795662D /* AGSPointCollection.h */,
+				96E65AF95A07085B59C3180ACDB256EC /* AGSPolygon.h */,
+				0B5D7CB0405F96024833C4D473D57D4F /* AGSPolygonBarrier.h */,
+				8B71207992EDE2FA4EA90413A2E58E08 /* AGSPolygonBuilder.h */,
+				0E9E9B7B578E662BD9982EE5FA9A791D /* AGSPolyline.h */,
+				735C205600A6A842127A678D30422269 /* AGSPolylineBarrier.h */,
+				9A971039B7C2A5ECD4A0ADF3E420F5A3 /* AGSPolylineBuilder.h */,
+				B88929CE5213B17DDB91E6044926506A /* AGSPopup.h */,
+				7B06DAA36E071FA1079AF7FDCAD17B28 /* AGSPopupAttachment.h */,
+				D51B1BD938801FE889CA9C15BA122C4B /* AGSPopupAttachmentManager.h */,
+				4DFB11534D7054031CC80093ACDF5712 /* AGSPopupDefinition.h */,
+				1C948C381BEF6999ACBAAF88FAF8CA77 /* AGSPopupExpression.h */,
+				427DC6C54FA552209821F1E99A22544C /* AGSPopupField.h */,
+				46BCD5E5ACD9B922E39019777D0D1AF3 /* AGSPopupFieldFormat.h */,
+				D72B6BEDD4419E57FC1811296DDE6A6B /* AGSPopupManager.h */,
+				AC10E9D65A69A8FE0BA34BA7FC95588E /* AGSPopupMedia.h */,
+				3AF11DDBDB3B48A738F4156D24830AE0 /* AGSPopupMediaValue.h */,
+				CDF8BD30FDE28D386187495300C3BFC5 /* AGSPopupRelatedFeaturesDefinition.h */,
+				BD0725B74599D5CACA7D9D576976BA39 /* AGSPopupRelatedFeaturesSortOrder.h */,
+				AB46CBA31719C48D79FAF46A99C285EA /* AGSPopupSource.h */,
+				711A0AEC2C801898B03760A183CD839E /* AGSPopupsViewController.h */,
+				1BFEAC980CF6A0444A8BAD27B0FB8807 /* AGSPopupsViewControllerDelegate.h */,
+				ED7528C814460F6FDE6EACD7D0539FCC /* AGSPopupsViewControllerTheme.h */,
+				84ABF70F04C686D982C45CA386C225C3 /* AGSPortal.h */,
+				15E4E8609CC23CD8A60F516A48E9A828 /* AGSPortalFolder.h */,
+				ADBC00E5AEDD40CB68182CF7CA6DC008 /* AGSPortalGroup.h */,
+				EBA1A931408417D7463E7C06D81A7CAA /* AGSPortalHelperServices.h */,
+				9F10B32538C11CBFE603ECE47ECBA86A /* AGSPortalInfo.h */,
+				004F084436DA18DE8B8AE7B3441F65BC /* AGSPortalItem.h */,
+				F47060063CB2FCBB53694D75C0FEF496 /* AGSPortalItemComment.h */,
+				6A41D98E79171F7EA8D977C92DD9330A /* AGSPortalItemContentParameters.h */,
+				0C3FF94CB33F66D7A622DBCCF2F63ECF /* AGSPortalPrivilege.h */,
+				C269A65B5F2189C0AE26CDFF2A551E4A /* AGSPortalQueryParameters.h */,
+				933852E8DF814B758BC08C9A2E92DFF7 /* AGSPortalQueryResultSet.h */,
+				27FC2FBC7AD2E45162DA7CD74C364A00 /* AGSPortalUser.h */,
+				29B8C2EC93CA128765563291A33EDDEA /* AGSPreplannedMapArea.h */,
+				04E94DEB1EB981B6565D4FEA4FF2AE92 /* AGSProximityResult.h */,
+				7FDF08C0EBA64E40FCCA0ADAD7932170 /* AGSQueryParameters.h */,
+				B2F8D6795D7C12C6BEF15BE9B953A94B /* AGSRangeDomain.h */,
+				107957AD385F4C98793F10076BB6A671 /* AGSRaster.h */,
+				44468A392C01B42289BB0F3780824911 /* AGSRasterElevationSource.h */,
+				8D48DACFA6FC618963B9C68D93807279 /* AGSRasterFunction.h */,
+				5A2452DEBCB2DFB7FC6810E0C5A8EE6E /* AGSRasterFunctionArguments.h */,
+				0A68864CD63EC1433C4512271BA3F4BA /* AGSRasterLayer.h */,
+				098DABFBEC08AE0517BD39A52D80511E /* AGSRasterRenderer.h */,
+				6B5930BF1D9D9687A988F3B9729CB39C /* AGSRasterSublayerSource.h */,
+				3F49C34DD7117230B68F8BD6636AC5C4 /* AGSRelatedFeatureQueryResult.h */,
+				9B936D487A026A1FE506700B932DFFCE /* AGSRelatedQueryParameters.h */,
+				E49B42BC017F3D70DEF59236F6A9B8E5 /* AGSRelationshipInfo.h */,
+				B2317BBD6350969A688941A8A28EA192 /* AGSRemoteResource.h */,
+				A00FDA62B1CD2A284B71DE91F4DCAE77 /* AGSRenderer.h */,
+				C70C2B58816D7C294C1DF9F6E23B3C17 /* AGSRendererSceneProperties.h */,
+				08CBC4D7C9003F0872C5EEB67D0B02AC /* AGSRenderingRule.h */,
+				DBD0A7DE51017A7BD7A1C9B54CD6BC5B /* AGSRenderingRuleInfo.h */,
+				77D39FAD27F2C7DFF69A04EDFF1749EB /* AGSRequestConfiguration.h */,
+				C55B21C46FDEC4ADEC565DD98509F82D /* AGSRequestOperation.h */,
+				B428CDB77422A5EF5A9339E10EE099A7 /* AGSRestrictionAttribute.h */,
+				395C351E8CDB40105353FB40F870D432 /* AGSReverseGeocodeParameters.h */,
+				180344B8553C7F7E6FFDDD65BF20902F /* AGSRGBRenderer.h */,
+				4AB0A5720F681308ECCAFF09257A72FC /* AGSRoute.h */,
+				25E4F5EB8DA2B9DD9A3E5AEA4A9B88C2 /* AGSRouteParameters.h */,
+				06640DB01949C2921E154D214EC59D9B /* AGSRouteResult.h */,
+				68406D346E1984DAFFDBB2BE8F94D2DE /* AGSRouteTask.h */,
+				89C45B81987D7B9B570C2120AE6FFCE5 /* AGSRouteTaskInfo.h */,
+				124BF2D859E429195E5092E8339CCFBB /* AGSScene.h */,
+				8FD92654B776DEDDFDF71E7F19228E36 /* AGSSceneView.h */,
+				059490A01253042EDB3EBB4C6A7177D1 /* AGSSegment.h */,
+				F486E4900F5510C2913A649D63574900 /* AGSSelectionProperties.h */,
+				88DB35E73F807F5A665D78E0846650F4 /* AGSServiceAreaFacility.h */,
+				FB3E70C4D918A2ED4CD16A97B46EB562 /* AGSServiceAreaParameters.h */,
+				ABF19A494BEC0B0BDFEF99DC2AD710EE /* AGSServiceAreaPolygon.h */,
+				FB9152B370E286B370E984130892A422 /* AGSServiceAreaPolyline.h */,
+				D4F26832A8AE0F1BB2CFE86E0A10E494 /* AGSServiceAreaResult.h */,
+				7EEBA1D16461BEF79D698294E2969416 /* AGSServiceAreaTask.h */,
+				46FFF3D20AC84604A865194FDB18F16E /* AGSServiceAreaTaskInfo.h */,
+				1E801B2646DB97659B7FFE02375A4E73 /* AGSServiceDocumentInfo.h */,
+				1C1708BC04F4CEDE4618E9FACF70C02F /* AGSServiceFeatureTable.h */,
+				3D65EBCA1C220BF73660C7D7079D5D80 /* AGSServiceImageTiledLayer.h */,
+				CCFF02ACA94E1C2EB9E3A1BFE5A4014D /* AGSServiceTimeInfo.h */,
+				E79EC4C6C1A6C8EA96FDD904842C4C4E /* AGSShapefileFeatureTable.h */,
+				F5E311B7C61B0FAC746EA64D0CDF292D /* AGSShapefileInfo.h */,
+				D3521428EAD68A2574B446BA4E6F1909 /* AGSSimpleFillSymbol.h */,
+				761B9FA848841263C74F16B01BC256CD /* AGSSimpleLineSymbol.h */,
+				46BD797763FC11DD4ACC329DCCC26E5A /* AGSSimpleMarkerSceneSymbol.h */,
+				8291ED93D6F3BA33596992C48CD397C1 /* AGSSimpleMarkerSymbol.h */,
+				76789D886A460C0FC4117937B57F16B1 /* AGSSimpleRenderer.h */,
+				4EFF83A0F5AE8DC1E44A524813079AF1 /* AGSSimulatedLocationDataSource.h */,
+				1FC54D30F816DC3FE9DBAE86A177091F /* AGSSketchEditConfiguration.h */,
+				206EEA3A1839949CE0689C4910B39FDE /* AGSSketchEditor.h */,
+				E4274541E194C2C76D345FB6E0CDD3CB /* AGSSketchStyle.h */,
+				8663825CB8488DCA8A35AFF5B43F0C1D /* AGSSketchVertex.h */,
+				20F0ECCAE83F555F093384ECBF902770 /* AGSSourceObjectPosition.h */,
+				96DBC2D452954E569AF20850B549E237 /* AGSSpatialReference.h */,
+				A8B86B8B280A27EFEA88799A3C82BE38 /* AGSStandardDeviationStretchParameters.h */,
+				945E2241BA0CBEAD7140489BD891781B /* AGSStatisticDefinition.h */,
+				5846EFD85ED1C4A8C7FC774466A9B948 /* AGSStatisticRecord.h */,
+				C4E93F78B067F854FF2C3E0E217DFE6E /* AGSStatisticRecordEnumerator.h */,
+				F03E59B6F7DA352668F66BB2CCB1E6B6 /* AGSStatisticsQueryParameters.h */,
+				760D795B1A6DCD07204CD070FFA0814E /* AGSStatisticsQueryResult.h */,
+				F82BB92B32EC409B0B2E8BCAA4070B80 /* AGSStop.h */,
+				45970728BE277F8E66BE78C8ECCB07FB /* AGSStretchParameters.h */,
+				4E1A2EFFD3C878D6EF59F6B25990C71E /* AGSStretchRenderer.h */,
+				B5A83A3F7F350705457BFE448FB08A20 /* AGSSublayerSource.h */,
+				D8D3CBDDB51CA239AAF1F5895632E17A /* AGSSuggestParameters.h */,
+				1A2C32603DC88CFAE6A125F27325F38A /* AGSSuggestResult.h */,
+				BB4C61906B3CB421746742E690FEAB8D /* AGSSurface.h */,
+				479CF63148974BDD30128D409F59A050 /* AGSSymbol.h */,
+				42D4DDFE1E4EC2FBDF65FCB317C24016 /* AGSSymbolStyle.h */,
+				B9CF10682239BDB697E3F6FF90E676FA /* AGSSymbolStyleSearchParameters.h */,
+				BEA0A10940109AC789F1226DDE950B69 /* AGSSymbolStyleSearchResult.h */,
+				28D51265BFAF77DFB126583FE74C428C /* AGSSyncCapabilities.h */,
+				2D870065D67F57F40D394A4050D32D5A /* AGSSyncGeodatabaseJob.h */,
+				8FE5064463DB38C57A11BFA529064167 /* AGSSyncGeodatabaseParameters.h */,
+				89D888FF9CEB690E27C3CDD9EDB6485E /* AGSSyncLayerOption.h */,
+				6E3BE681C6144AEDD130C5AF269573D7 /* AGSSyncLayerResult.h */,
+				12737EFC2BCB082B79F83CC3A32C6EC5 /* AGSTableJoinSublayerSource.h */,
+				51191C78F5E1C40BBFBE0818D0AC9F60 /* AGSTableQuerySublayerSource.h */,
+				647D2342EC97291F261BC7CBFF1650D9 /* AGSTableSublayerSource.h */,
+				97D961D3C96537CAB693C13B61F64B88 /* AGSTextSymbol.h */,
+				EFA31607FB16AFECDCFDEEAE32F0FDA2 /* AGSTileCache.h */,
+				73CA03C31630D889677F8A4DB24B6E90 /* AGSTileInfo.h */,
+				38075DB18243412C89E529D15C3B6963 /* AGSTileKey.h */,
+				D2172C53D3E384AB3032B5A4F3A1C3C1 /* AGSTimeAware.h */,
+				DE8DDF6B104995169EE0B5CA60FD6810 /* AGSTimeExtent.h */,
+				85161A4C73D636B047DFBBC95D6EE8B5 /* AGSTimeReference.h */,
+				AC77AA4009A460DD97D78D68A8E1BA4F /* AGSTimeValue.h */,
+				F2784E12529FE0B8C41D27D62A0C6F33 /* AGSTransformationCatalog.h */,
+				5DE6A5183B791055B7107883ADB93DF1 /* AGSTransportationNetworkDataset.h */,
+				CDFCAC32B034AC1EB892D2E1015C31FF /* AGSTravelMode.h */,
+				F0204119EE2152FACBAEFC34DA77D8B2 /* AGSUniqueValue.h */,
+				039F083E9566571533C58DFFA14559F5 /* AGSUniqueValueRenderer.h */,
+				DEDE4A6E675F9D19FA995E4073CF4F65 /* AGSUnit.h */,
+				9AEC9D1AB07197A3F34B8896C0C695B8 /* AGSUnknownLayer.h */,
+				03E0578B65BD701B25D7E639EBB68135 /* AGSUnsupportedLayer.h */,
+				6390408CF1E5BFA51C130ACB4E92F4FE /* AGSUnsupportedSymbol.h */,
+				7E3198622C35EC35ED01224702D02CDE /* AGSUSNGGrid.h */,
+				853CA5045317D9EE4750F22C2D10B7B3 /* AGSUTMGrid.h */,
+				7BFAD23AE465990F5B01AF1A20BE8DC4 /* AGSVectorTileCache.h */,
+				8BA6E34CFD9FB78B7499EF5C9453DD2A /* AGSVectorTileSourceInfo.h */,
+				74E335435FF6DD6C704B359862F1252B /* AGSVectorTileStyle.h */,
+				EA69104442CA583CA18CA5D2E2E13185 /* AGSView.h */,
+				F615BB950C5D4EA2DC4CD8C0CD073396 /* AGSViewController.h */,
+				2EAF4C637A27A696545F266CE6C572A6 /* AGSViewControllerBase.h */,
+				F8455CF509132E8A2030B7130E717991 /* AGSViewControllerBase_OSX.h */,
+				CDFADCE47AF91754455BF370F24331A0 /* AGSViewLabelProperties.h */,
+				9186BCA635B0DD237520ECFB87F98D8F /* AGSViewpoint.h */,
+				931AF861884618B25AF568919431D75C /* AGSViewshed.h */,
+				00DD432424A33DC6DF5841476C01F4C3 /* AGSWebTiledLayer.h */,
+				C9ACC4E27ABDA75F5172F4D0882DD152 /* AGSWMSFeature.h */,
+				044D08F2B4751F8A8A8DAFD6607F684B /* AGSWMSLayer.h */,
+				A38ED23B5285AD2AE98CCF9C70BD9349 /* AGSWMSLayerInfo.h */,
+				54DA79FC065B68F387CD8F727874D483 /* AGSWMSService.h */,
+				0060ADFAA0BAF925CEAE9758816BCAE0 /* AGSWMSServiceInfo.h */,
+				059CE878698DF81F1A6918B82F991BA0 /* AGSWMSSublayer.h */,
+				BE2C9452966A7DD0BB063D9D50932EC0 /* AGSWMTSLayer.h */,
+				F1BFA39383B927F77FA1CFA1CA93DE33 /* AGSWMTSLayerInfo.h */,
+				4810C952C9401A2BE5BCE8680020EEBE /* AGSWMTSService.h */,
+				F437449621F2E0095C1627646DC0AADA /* AGSWMTSServiceInfo.h */,
+				0CD4CD2919BBC8D8642407889E2C54B8 /* AGSWMTSTileMatrix.h */,
+				92529173C8E26712E5FA2F6D9B6416DE /* AGSWMTSTileMatrixSet.h */,
+				DECE8A6CA32A0AEDDF95AD0EE9BE1F1A /* ArcGIS.h */,
+				9C63D420EEDB3308988B7D5B0073E000 /* NSArray+AGSJSONSerializable.h */,
+				7FEEE99D2A3D2CC25EB6ADAE4FEE5732 /* NSBlockOperation+AGSCancelable.h */,
+				66300EF5DAB94D3CB7977B434CBCB85A /* NSBundle+AGSBundle.h */,
+				335407FB719D342C3DF17D950A93C668 /* NSValue+AGSEnumSupport.h */,
+				0F4A369C3A3E11FDA018E7673A9C74CC /* Frameworks */,
+				B2CC2E3B4A59E3C77C72DEE65254CD3B /* Resources */,
+				A826082E02F145CDD03C3FEC96184A1C /* Support Files */,
+			);
+			path = "ArcGIS-Runtime-SDK-macOS";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5377915889BFC5DB8D60E017BB6B5A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534FDE4FFBFD9C0F6891C7DE8FB51374 /* Pods-FlightVisualizerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1A5239A7CB3EF5260122C3A7D619B3D /* Pods-FlightVisualizerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855E327589A11759C8141EA98B923DBF /* Build configuration list for PBXNativeTarget "Pods-FlightVisualizerSwift" */;
+			buildPhases = (
+				E5377915889BFC5DB8D60E017BB6B5A0 /* Headers */,
+				5267C4EFAC27381BA4065A816B4D1F51 /* Sources */,
+				EFD9A67D3332552155D0C06AC2E5433C /* Frameworks */,
+				4C2C94F8697A14922D5E0287C596F829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64A975087D89446071106B417E148F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlightVisualizerSwift";
+			productName = "Pods-FlightVisualizerSwift";
+			productReference = D0C383915F18C11E3BB393534BD9DCFB /* Pods_FlightVisualizerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 227A346CE3E9821BE5BBC7F39364F6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8200D948E5AC83A2B1D0A9E9E2A29D57 /* ArcGIS-Runtime-SDK-macOS */,
+				C1A5239A7CB3EF5260122C3A7D619B3D /* Pods-FlightVisualizerSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2C94F8697A14922D5E0287C596F829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5267C4EFAC27381BA4065A816B4D1F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C35FEFD9ED2B74E2849C38E9431E4D /* Pods-FlightVisualizerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64A975087D89446071106B417E148F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ArcGIS-Runtime-SDK-macOS";
+			target = 8200D948E5AC83A2B1D0A9E9E2A29D57 /* ArcGIS-Runtime-SDK-macOS */;
+			targetProxy = 2CDA7E5FC2F18413D6F67FD2AD500FD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		259CB0A91FB94C13C74C2D2304A2697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B293E107F772517273684982CE2140AF /* Pods-FlightVisualizerSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B02064D7E8BCDAC9B6D67691989B865B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E8E31024D663F6B66EC75F6EDBF3C962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0364AEC7DB6CBDCD394AD4E7E346AA /* ArcGIS-Runtime-SDK-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F688D00DD02DEAB720530D4CBC687F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0364AEC7DB6CBDCD394AD4E7E346AA /* ArcGIS-Runtime-SDK-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB23F719E834C2B36062E0E40F80E6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C143091B108C42DA8356E5832D2663 /* Pods-FlightVisualizerSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlightVisualizerSwift/Pods-FlightVisualizerSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC05650207F51715AE5AE6EDB1FAE9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC05650207F51715AE5AE6EDB1FAE9C3 /* Debug */,
+				B02064D7E8BCDAC9B6D67691989B865B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855E327589A11759C8141EA98B923DBF /* Build configuration list for PBXNativeTarget "Pods-FlightVisualizerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259CB0A91FB94C13C74C2D2304A2697A /* Debug */,
+				FB23F719E834C2B36062E0E40F80E6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12CDD5535A67C0AE97EF30C78863CED /* Build configuration list for PBXAggregateTarget "ArcGIS-Runtime-SDK-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F688D00DD02DEAB720530D4CBC687F8F /* Debug */,
+				E8E31024D663F6B66EC75F6EDBF3C962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

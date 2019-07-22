@@ -1,0 +1,16 @@
+PODS:
+  - ArcGIS-Runtime-SDK-macOS (100.4)
+
+DEPENDENCIES:
+  - ArcGIS-Runtime-SDK-macOS (= 100.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ArcGIS-Runtime-SDK-macOS
+
+SPEC CHECKSUMS:
+  ArcGIS-Runtime-SDK-macOS: 895156af6114c647c57448939ff33322e4866725
+
+PODFILE CHECKSUM: cce93b1fad4b4e3a75c69c728fc426a6854f392c
+
+COCOAPODS: 1.6.0
